@@ -1,0 +1,17 @@
+#ifndef SYSTEM_INIT_H
+#define SYSTEM_INIT_H
+
+#include "lcd_i2c.h"
+#include "button_handler.h"
+#include "screen_display.h"
+#include "system_states.h"
+#include "rtc.h"
+#include "activity_log.h"
+#include "flash_csv.h"
+
+/**
+ * @brief Initializes all system components
+ */
+void system_initialize(void);
+
+#endif

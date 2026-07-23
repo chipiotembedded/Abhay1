@@ -1,0 +1,5 @@
+## IDF Component Manager Manifest File
+dependencies:
+  joltwallet/littlefs: "*"
+  idf: ">=4.4"
+  usb_host_msc: "^1.1.1"

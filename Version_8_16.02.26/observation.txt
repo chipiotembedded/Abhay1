@@ -1,0 +1,81 @@
+W (4738721) LORA: Entering the receiver mode...
+I (4738721) LORA: LoRa set to continuous receive mode.
+I (4869631) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (4869651) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (4869671) ACTIVITY_LOG: Log stored. Total: 27
+I (4869671) LORA_RECEIVE: Received at: 08-09-25 13:21
+W (4869671) LORA: Entering the receiver mode...
+I (4869671) LORA: LoRa set to continuous receive mode.
+I (4897381) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (4897401) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (4897421) ACTIVITY_LOG: Log stored. Total: 28
+I (4897421) LORA_RECEIVE: Received at: 08-09-25 13:21
+W (4897421) LORA: Entering the receiver mode...
+I (4897421) LORA: LoRa set to continuous receive mode.
+I (4907231) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (4907251) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (4907271) ACTIVITY_LOG: Log stored. Total: 29
+I (4907271) LORA_RECEIVE: Received at: 08-09-25 13:21
+W (4907271) LORA: Entering the receiver mode...
+I (4907271) LORA: LoRa set to continuous receive mode.
+I (4926381) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (4926401) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (4926421) ACTIVITY_LOG: Log stored. Total: 30
+I (4926421) LORA_RECEIVE: Received at: 08-09-25 13:22
+W (4926421) LORA: Entering the receiver mode...
+I (4926421) LORA: LoRa set to continuous receive mode.
+I (4935931) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (4935951) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (4935971) ACTIVITY_LOG: Log stored. Total: 31
+I (4935971) LORA_RECEIVE: Received at: 08-09-25 13:22
+W (4935971) LORA: Entering the receiver mode...
+I (4935971) LORA: LoRa set to continuous receive mode.
+I (4943581) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (4943601) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (4943621) ACTIVITY_LOG: Log stored. Total: 32
+I (4943621) LORA_RECEIVE: Received at: 08-09-25 13:22
+W (4943621) LORA: Entering the receiver mode...
+I (4943621) LORA: LoRa set to continuous receive mode.
+I (4951131) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (4951151) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (4951171) ACTIVITY_LOG: Log stored. Total: 33
+I (4951171) LORA_RECEIVE: Received at: 08-09-25 13:22
+W (4951171) LORA: Entering the receiver mode...
+I (4951181) LORA: LoRa set to continuous receive mode.
+I (4959681) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (4959701) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (4959721) ACTIVITY_LOG: Log stored. Total: 34
+I (4959721) LORA_RECEIVE: Received at: 08-09-25 13:22
+W (4959721) LORA: Entering the receiver mode...
+I (4959731) LORA: LoRa set to continuous receive mode.
+I (4967531) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (4967551) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (4967571) ACTIVITY_LOG: Log stored. Total: 35
+I (4967571) LORA_RECEIVE: Received at: 08-09-25 13:22
+W (4967571) LORA: Entering the receiver mode...
+I (4967581) LORA: LoRa set to continuous receive mode.
+I (4989481) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (4989501) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (4989521) ACTIVITY_LOG: Log stored. Total: 36
+I (4989521) LORA_RECEIVE: Received at: 08-09-25 13:23
+W (4989521) LORA: Entering the receiver mode...
+I (4989531) LORA: LoRa set to continuous receive mode.
+I (5010231) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (5010251) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (5010271) ACTIVITY_LOG: Log stored. Total: 37
+I (5010271) LORA_RECEIVE: Received at: 08-09-25 13:23
+W (5010271) LORA: Entering the receiver mode...
+I (5010281) LORA: LoRa set to continuous receive mode.
+I (5021881) LORA_RECEIVE: Received: FC:B4:67:F4:83:E4|X|Y (len=21)
+I (5021901) LORA_RECEIVE: Owner Found: DDDD, Flat A104
+I (5021921) ACTIVITY_LOG: Log stored. Total: 38
+I (5021921) LORA_RECEIVE: Received at: 08-09-25 13:23
+W (5021921) LORA: Entering the receiver mode...
+I (5021931) LORA: LoRa set to continuous receive mode.
+
+
+
+
+
+
+

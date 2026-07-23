@@ -1,0 +1,86 @@
+[2026-04-13 09:59:35] [0;32mI (627) Main: Step 3: System initialize[0m
+[2026-04-13 09:59:35] [0;32mI (687) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-04-13 09:59:35] [0;32mI (707) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-04-13 09:59:35] [0;32mI (717) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-04-13 09:59:35] [0;32mI (837) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-04-13 09:59:35] [0;32mI (867) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-04-13 09:59:35] [0;32mI (897) gpio: GPIO[18]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[2026-04-13 09:59:35] [0;33mW (947) LORA: Entering the receiver mode...[0m
+[2026-04-13 09:59:35] [0;32mI (1007) LORA: LoRa set to continuous receive mode.[0m
+[2026-04-13 09:59:35] [0;32mI (1027) LORA_RECEIVE: LoRa Receiver Task Started[0m
+[2026-04-13 09:59:35] [0;32mI (1087) PASSWORD: Password loaded[0m
+[2026-04-13 09:59:35] [0;32mI (1137) WIFI_MANAGER: WiFi credentials loaded[0m
+[2026-04-13 09:59:35] [0;32mI (1167) WIFI_MANAGER: SSID: Paras 2.4[0m
+[2026-04-13 09:59:35] [0;32mI (1217) WIFI_MANAGER: PASS: 9890090011[0m
+[2026-04-13 09:59:37] [0;32mI (2387) Main: Step 4: Waiting for WiFi[0m
+[2026-04-13 09:59:37] [0;32mI (2437) pp: pp rom version: e7ae62f[0m
+[2026-04-13 09:59:37] [0;32mI (2477) net80211: net80211 rom version: e7ae62f[0m
+[2026-04-13 09:59:37] I (2517) wifi:[2026-04-13 09:59:37] wifi driver task: 3fcb7c6c, prio:23, stack:6656, core=0[2026-04-13 09:59:37] 
+[2026-04-13 09:59:37] I (2627) wifi:[2026-04-13 09:59:37] wifi firmware version: ccaebfa[2026-04-13 09:59:37] 
+[2026-04-13 09:59:37] I (2737) wifi:[2026-04-13 09:59:37] wifi certification version: v7.0[2026-04-13 09:59:37] 
+[2026-04-13 09:59:37] I (2827) wifi:[2026-04-13 09:59:37] config NVS flash: enabled[2026-04-13 09:59:37] 
+[2026-04-13 09:59:37] I (3087) wifi:[2026-04-13 09:59:37] config nano formating: disabled[2026-04-13 09:59:37] 
+[2026-04-13 09:59:37] I (3177) wifi:[2026-04-13 09:59:37] Init data frame dynamic rx buffer num: 32[2026-04-13 09:59:37] 
+[2026-04-13 09:59:37] I (3267) wifi:[2026-04-13 09:59:38] Init static rx mgmt buffer num: 5[2026-04-13 09:59:38] 
+[2026-04-13 09:59:38] I (3357) wifi:[2026-04-13 09:59:38] Init management short buffer num: 32[2026-04-13 09:59:38] 
+[2026-04-13 09:59:38] I (3457) wifi:[2026-04-13 09:59:38] Init dynamic tx buffer num: 32[2026-04-13 09:59:38] 
+[2026-04-13 09:59:38] I (3717) wifi:[2026-04-13 09:59:38] Init static tx FG buffer num: 2[2026-04-13 09:59:38] 
+[2026-04-13 09:59:38] I (3817) wifi:[2026-04-13 09:59:38] Init static rx buffer size: 1600[2026-04-13 09:59:38] 
+[2026-04-13 09:59:38] I (3907) wifi:[2026-04-13 09:59:38] Init static rx buffer num: 10[2026-04-13 09:59:38] 
+[2026-04-13 09:59:38] I (4017) wifi:[2026-04-13 09:59:38] Init dynamic rx buffer num: 32[2026-04-13 09:59:38] 
+[2026-04-13 09:59:38] [0;32mI (4127) wifi_init: rx ba win: 6[0m
+[2026-04-13 09:59:38] [0;32mI (4177) wifi_init: accept mbox: 6[0m
+[2026-04-13 09:59:39] [0;32mI (4217) wifi_init: tcpip mbox: 32[0m
+[2026-04-13 09:59:39] [0;32mI (4407) wifi_init: udp mbox: 6[0m
+[2026-04-13 09:59:39] [0;32mI (4447) wifi_init: tcp mbox: 6[0m
+[2026-04-13 09:59:39] [0;32mI (4477) wifi_init: tcp tx win: 5760[0m
+[2026-04-13 09:59:39] [0;32mI (4507) wifi_init: tcp rx win: 5760[0m
+[2026-04-13 09:59:39] [0;32mI (4547) wifi_init: tcp mss: 1440[0m
+[2026-04-13 09:59:39] [0;32mI (4587) wifi_init: WiFi IRAM OP enabled[0m
+[2026-04-13 09:59:39] [0;32mI (4627) wifi_init: WiFi RX IRAM OP enabled[0m
+[2026-04-13 09:59:39] [0;32mI (4677) WIFI_MANAGER: WiFi credentials loaded[0m
+[2026-04-13 09:59:39] [0;32mI (4727) WIFI_MANAGER: SSID: Paras 2.4[0m
+[2026-04-13 09:59:39] [0;32mI (4767) WIFI_MANAGER: PASS: 9890090011[0m
+[2026-04-13 09:59:40] [0;32mI (5817) WIFI_MANAGER: Using stored WiFi credentials[0m
+[2026-04-13 09:59:40] I (5867) wifi:[2026-04-13 09:59:40] Set ps type: 0, coexist: 0
+[2026-04-13 09:59:40] 
+[2026-04-13 09:59:40] [0;32mI (5987) phy_init: phy_version 680,a6008b2,Jun  4 2024,16:41:10[0m
+[2026-04-13 09:59:40] I (6197) wifi:[2026-04-13 09:59:40] mode : sta (98:a3:16:d1:20:f8)[2026-04-13 09:59:40] 
+[2026-04-13 09:59:40] I (6277) wifi:[2026-04-13 09:59:41] enable tsf[2026-04-13 09:59:41] 
+[2026-04-13 09:59:41] [0;32mI (6347) WIFI_MANAGER: WiFi Started. Connecting...[0m
+[2026-04-13 09:59:41] [0;32mI (6347) WIFI_MANAGER: WiFi initialization finished[0m
+[2026-04-13 09:59:41] I (6597) wifi:[2026-04-13 09:59:41] state: auth -> assoc (0x0)[2026-04-13 09:59:41] 
+[2026-04-13 09:59:41] I (6847) wifi:[2026-04-13 09:59:41] state: assoc -> run (0x10)[2026-04-13 09:59:41] 
+[2026-04-13 09:59:41] I (6957) wifi:[2026-04-13 09:59:41] connected with Paras 2.4, aid = 7, channel 10, BW20, bssid = 40:ed:00:55:66:41[2026-04-13 09:59:41] 
+[2026-04-13 09:59:41] I (7057) wifi:[2026-04-13 09:59:41] security: WPA2-PSK, phy: bgn, rssi: -42[2026-04-13 09:59:41] 
+[2026-04-13 09:59:41] I (7147) wifi:[2026-04-13 09:59:41] pm start, type: 0
+[2026-04-13 09:59:41] 
+[2026-04-13 09:59:42] I (7237) wifi:[2026-04-13 09:59:42] dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[2026-04-13 09:59:42] 
+[2026-04-13 09:59:42] I (7467) wifi:[2026-04-13 09:59:42] set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[2026-04-13 09:59:42] 
+[2026-04-13 09:59:42] I (7577) wifi:[2026-04-13 09:59:42] AP's beacon interval = 102400 us, DTIM period = 1[2026-04-13 09:59:42] 
+[2026-04-13 09:59:42] I (7717) wifi:[2026-04-13 09:59:42] <ba-add>idx:0 (ifx:0, 40:ed:00:55:66:41), tid:0, ssn:2, winSize:64[2026-04-13 09:59:42] 
+[2026-04-13 09:59:43] [0;32mI (8667) esp_netif_handlers: sta ip: 192.168.1.201, mask: 255.255.255.0, gw: 192.168.1.102[0m
+[2026-04-13 09:59:43] [0;32mI (8707) WIFI_MANAGER: Got IP: 192.168.1.201[0m
+[2026-04-13 09:59:45] [0;32mI (10747) WIFI_MANAGER: Connected to WiFi successfully[0m
+[2026-04-13 09:59:45] [0;32mI (10807) RTC_DRIVER: RTC Init Started[0m
+[2026-04-13 15:29:46] [0;32mI (12007) RTC_DRIVER: Initializing SNTP[0m
+[2026-04-13 15:29:46] [0;32mI (12047) RTC_DRIVER: Waiting for time sync... (1/15)[0m
+[2026-04-13 15:29:48] I (13427) wifi:[2026-04-13 15:29:48] <ba-add>idx:1 (ifx:0, 40:ed:00:55:66:41), tid:4, ssn:1, winSize:64[2026-04-13 15:29:48] 
+[2026-04-13 15:29:50] [0;32mI (14077) RTC_DRIVER: Time synchronized successfully[0m
+[2026-04-13 15:29:55] [0;32mI (19167) Main: USB update task created successfully[0m
+[2026-04-13 15:29:55] [0;32mI (19327) Main: lcd_bl_timer task created successfully[0m
+[2026-04-13 15:29:55] [0;32mI (19357) Main: Starting application[0m
+[2026-04-13 15:29:56] [0;32mI (20407) main_task: Returned from app_main()[0m
+[2026-04-13 15:30:09] [0;31mE (32927) HUB: Bad transfer status 4: CHECK_SHORT_LANGID_TABLE[0m
+[2026-04-13 15:30:09] [0;31mE (32967) HUB: Stage failed: CHECK_SHORT_LANGID_TABLE[0m
+[2026-04-13 15:30:09] [0;32mI (33157) USB_UPDATE: USB connected - installing device[0m
+[2026-04-13 15:30:10] [0;31mE (33927) USB_MSC_SCSI: Sense error codes: Sense Key 0x06, ASC: 0x28, ASCQ: 0x00[0m
+[2026-04-13 15:30:10] [0;31mE (33967) USB_MSC_SCSI: Sense error description: not found, refer to USB Mass Storage Class – UFI Command Specification (Table 51)[0m
+[2026-04-13 15:30:11] [0;32mI (35117) USB_UPDATE: CSV copied to LittleFS[0m
+[2026-04-13 15:30:11] [0;32mI (35177) PASSWORD: Password file copied to LittleFS[0m
+[2026-04-13 15:30:11] [0;32mI (35237) WIFI_MANAGER: wifi cred txt copied to LittleFS[0m
+[2026-04-13 15:30:11] [0;32mI (35287) PASSWORD: Password loaded[0m
+[2026-04-13 15:30:11] [0;32mI (35347) WIFI_MANAGER: WiFi credentials loaded[0m
+[2026-04-13 15:30:11] [0;32mI (35397) WIFI_MANAGER: SSID: Paras 2.4[0m
+[2026-04-13 15:30:11] [0;32mI (35447) WIFI_MANAGER: PASS: 9890090011[0m
+[2026-04-13 15:30:28] [0;32mI (51917) ACTIVITY_COPY: Activity log copied to USB successfully[0m

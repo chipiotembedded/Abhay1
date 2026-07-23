@@ -1,0 +1,1509 @@
+[1970-01-01 00:00:00] [0;32mI (618) Main: Step 3: System initialize[0m
+[1970-01-01 00:00:00] [0;32mI (688) PASSWORD: Password loaded[0m
+[1970-01-01 00:00:00] [0;32mI (698) WIFI_MANAGER: WiFi credentials loaded[0m
+[1970-01-01 00:00:00] [0;32mI (708) WIFI_MANAGER: SSID: Paras 2.4[0m
+[1970-01-01 00:00:00] [0;32mI (728) WIFI_MANAGER: PASS: 9890090011[0m
+[1970-01-01 00:00:01] [0;32mI (1728) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1838) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1868) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1898) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1928) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;32mI (1958) gpio: GPIO[18]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[1970-01-01 00:00:01] [0;33mW (2008) LORA: Entering the receiver mode...[0m
+[1970-01-01 00:00:01] [0;32mI (2078) LORA: LoRa set to continuous receive mode.[0m
+[1970-01-01 00:00:01] [0;32mI (2108) LORA_RECEIVE: LoRa Receiver Task Started[0m
+[1970-01-01 00:00:01] [0;32mI (2008) Main: lcd_bl_timer task created successfully[0m
+[1970-01-01 00:00:01] [0;32mI (2188) Main: USB update task created successfully[0m
+[1970-01-01 00:00:02] [0;32mI (2368) Main: Step 4: Waiting for WiFi[0m
+[1970-01-01 00:00:02] [0;32mI (2418) pp: pp rom version: e7ae62f[0m
+[1970-01-01 00:00:02] [0;32mI (2468) net80211: net80211 rom version: e7ae62f[0m
+[1970-01-01 00:00:02] I (2508) wifi:[1970-01-01 00:00:02] wifi driver task: 3fcbfbb0, prio:23, stack:6656, core=0[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2598) wifi:[1970-01-01 00:00:02] wifi firmware version: ccaebfa[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2708) wifi:[1970-01-01 00:00:02] wifi certification version: v7.0[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (2928) wifi:[1970-01-01 00:00:02] config NVS flash: enabled[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3018) wifi:[1970-01-01 00:00:02] config nano formating: disabled[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3108) wifi:[1970-01-01 00:00:02] Init data frame dynamic rx buffer num: 32[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3218) wifi:[1970-01-01 00:00:02] Init static rx mgmt buffer num: 5[1970-01-01 00:00:02] 
+[1970-01-01 00:00:02] I (3318) wifi:[1970-01-01 00:00:03] Init management short buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3588) wifi:[1970-01-01 00:00:03] Init dynamic tx buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3688) wifi:[1970-01-01 00:00:03] Init static tx FG buffer num: 2[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3788) wifi:[1970-01-01 00:00:03] Init static rx buffer size: 1600[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (3908) wifi:[1970-01-01 00:00:03] Init static rx buffer num: 10[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] I (4028) wifi:[1970-01-01 00:00:03] Init dynamic rx buffer num: 32[1970-01-01 00:00:03] 
+[1970-01-01 00:00:03] [0;32mI (4298) wifi_init: rx ba win: 6[0m
+[1970-01-01 00:00:03] [0;32mI (4328) wifi_init: accept mbox: 6[0m
+[1970-01-01 00:00:04] [0;32mI (4368) wifi_init: tcpip mbox: 32[0m
+[1970-01-01 00:00:04] [0;32mI (4408) wifi_init: udp mbox: 6[0m
+[1970-01-01 00:00:04] [0;32mI (4448) wifi_init: tcp mbox: 6[0m
+[1970-01-01 00:00:04] [0;32mI (4488) wifi_init: tcp tx win: 5760[0m
+[1970-01-01 00:00:04] [0;32mI (4528) wifi_init: tcp rx win: 5760[0m
+[1970-01-01 00:00:04] [0;32mI (4568) wifi_init: tcp mss: 1440[0m
+[1970-01-01 00:00:04] [0;32mI (4618) wifi_init: WiFi IRAM OP enabled[0m
+[1970-01-01 00:00:04] [0;32mI (4658) wifi_init: WiFi RX IRAM OP enabled[0m
+[1970-01-01 00:00:04] [0;32mI (4728) WIFI_MANAGER: WiFi credentials loaded[0m
+[1970-01-01 00:00:04] [0;32mI (4778) WIFI_MANAGER: SSID: Paras 2.4[0m
+[1970-01-01 00:00:04] [0;32mI (4838) WIFI_MANAGER: PASS: 9890090011[0m
+[1970-01-01 00:00:05] [0;32mI (5888) WIFI_MANAGER: Using stored WiFi credentials[0m
+[1970-01-01 00:00:05] I (5928) wifi:[1970-01-01 00:00:05] Set ps type: 0, coexist: 0
+[1970-01-01 00:00:05] 
+[1970-01-01 00:00:05] [0;32mI (6138) phy_init: phy_version 680,a6008b2,Jun  4 2024,16:41:10[0m
+[1970-01-01 00:00:05] I (6208) wifi:[1970-01-01 00:00:05] mode : sta (98:a3:16:d1:20:f8)[1970-01-01 00:00:05] 
+[1970-01-01 00:00:05] I (6288) wifi:[1970-01-01 00:00:05] enable tsf[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] [0;32mI (6398) WIFI_MANAGER: WiFi Started. Connecting...[0m
+[1970-01-01 00:00:06] [0;32mI (6398) WIFI_MANAGER: WiFi initialization finished[0m
+[1970-01-01 00:00:06] I (6758) wifi:[1970-01-01 00:00:06] state: auth -> assoc (0x0)[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6868) wifi:[1970-01-01 00:00:06] state: assoc -> run (0x10)[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (6988) wifi:[1970-01-01 00:00:06] connected with Paras 2.4, aid = 4, channel 11, BW20, bssid = 40:ed:00:55:66:41[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (7088) wifi:[1970-01-01 00:00:06] security: WPA2-PSK, phy: bgn, rssi: -40[1970-01-01 00:00:06] 
+[1970-01-01 00:00:06] I (7308) wifi:[1970-01-01 00:00:06] pm start, type: 0
+[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (7398) wifi:[1970-01-01 00:00:07] dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (7488) wifi:[1970-01-01 00:00:07] set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (7578) wifi:[1970-01-01 00:00:07] AP's beacon interval = 102400 us, DTIM period = 1[1970-01-01 00:00:07] 
+[1970-01-01 00:00:07] I (7718) wifi:[1970-01-01 00:00:07] <ba-add>idx:0 (ifx:0, 40:ed:00:55:66:41), tid:0, ssn:3, winSize:64[1970-01-01 00:00:07] 
+[1970-01-01 00:00:08] [0;32mI (8668) esp_netif_handlers: sta ip: 192.168.1.172, mask: 255.255.255.0, gw: 192.168.1.102[0m
+[1970-01-01 00:00:08] [0;32mI (8708) WIFI_MANAGER: Got IP: 192.168.1.172[0m
+[1970-01-01 00:00:08] [0;32mI (8738) WIFI_MANAGER: Connected to WiFi successfully[0m
+[1970-01-01 00:00:09] [0;32mI (9768) RTC_DRIVER: RTC Init Started[0m
+[1970-01-01 05:30:09] [0;32mI (9808) RTC_DRIVER: Initializing SNTP[0m
+[1970-01-01 05:30:09] [0;32mI (9838) RTC_DRIVER: Waiting for time sync... (1/23)[0m
+[1970-01-01 05:30:11] [0;32mI (11868) RTC_DRIVER: Waiting for time sync... (2/23)[0m
+[2026-05-18 16:13:40] [0;32mI (13458) RTC_DRIVER: SNTP time sync callback received[0m
+[2026-05-18 16:13:40] [0;32mI (13908) RTC_DRIVER: Time synchronized successfully[0m
+[2026-05-18 16:13:46] [0;32mI (19988) main_task: Returned from app_main()[0m
+[2026-05-18 16:13:48] [0;32mI (21748) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:13:48] [0;32mI (21788) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:13:48] [0;32mI (21838) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:13:48] [0;32mI (21908) ACTIVITY_LOG: Log stored. Total: 15[0m
+[2026-05-18 16:13:48] [0;32mI (22098) LORA_RECEIVE: Received at: 18-05-2026 16:13[0m
+[2026-05-18 16:13:48] [0;33mW (22138) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:13:48] [0;32mI (22168) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:13:50] [0;32mI (24238) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:13:50] [0;32mI (24278) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:13:50] [0;32mI (24318) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:13:50] [0;32mI (24388) ACTIVITY_LOG: Log stored. Total: 16[0m
+[2026-05-18 16:13:51] [0;32mI (24438) LORA_RECEIVE: Received at: 18-05-2026 16:13[0m
+[2026-05-18 16:13:51] [0;33mW (24478) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:13:51] [0;32mI (24528) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:13:59] [0;32mI (33308) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:13:59] [0;32mI (33378) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:13:59] [0;32mI (33408) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:14:00] [0;32mI (33608) ACTIVITY_LOG: Log stored. Total: 17[0m
+[2026-05-18 16:14:00] [0;32mI (33638) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:00] [0;33mW (33668) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:00] [0;32mI (33688) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:04] [0;32mI (37608) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:14:04] [0;32mI (37628) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:14:04] [0;32mI (37678) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:14:04] [0;32mI (37738) ACTIVITY_LOG: Log stored. Total: 18[0m
+[2026-05-18 16:14:04] [0;32mI (37768) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:04] [0;33mW (37798) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:04] [0;32mI (37828) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:07] [0;32mI (41388) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:14:08] [0;32mI (41428) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:14:08] [0;32mI (41458) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:14:08] [0;32mI (41658) ACTIVITY_LOG: Log stored. Total: 19[0m
+[2026-05-18 16:14:08] [0;32mI (41708) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:08] [0;33mW (41738) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:08] [0;32mI (41768) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:11] [0;32mI (44998) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:14:11] [0;32mI (45038) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:14:11] [0;32mI (45068) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:14:11] [0;32mI (45138) ACTIVITY_LOG: Log stored. Total: 20[0m
+[2026-05-18 16:14:11] [0;32mI (45168) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:11] [0;33mW (45198) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:11] [0;32mI (45238) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:15] [0;32mI (48558) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:14:15] [0;32mI (48598) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:14:15] [0;32mI (48788) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:14:15] [0;32mI (48848) ACTIVITY_LOG: Log stored. Total: 21[0m
+[2026-05-18 16:14:15] [0;32mI (48878) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:15] [0;33mW (48918) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:15] [0;32mI (48958) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:18] [0;32mI (51948) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:14:18] [0;32mI (51988) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:14:18] [0;32mI (52028) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:14:18] [0;32mI (52098) ACTIVITY_LOG: Log stored. Total: 22[0m
+[2026-05-18 16:14:18] [0;32mI (52158) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:18] [0;33mW (52198) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:18] [0;32mI (52248) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:21] [0;32mI (54818) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:14:21] [0;32mI (55008) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:14:21] [0;32mI (55038) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:14:21] [0;32mI (55108) ACTIVITY_LOG: Log stored. Total: 23[0m
+[2026-05-18 16:14:21] [0;32mI (55148) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:21] [0;33mW (55198) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:21] [0;32mI (55238) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:24] [0;32mI (57758) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:14:24] [0;32mI (57778) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:14:24] [0;32mI (57808) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:14:24] [0;32mI (57868) ACTIVITY_LOG: Log stored. Total: 24[0m
+[2026-05-18 16:14:24] [0;32mI (57898) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:24] [0;33mW (57948) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:24] [0;32mI (57978) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:27] [0;32mI (60938) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:14:27] [0;32mI (60968) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:14:27] [0;32mI (60988) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:14:27] [0;32mI (61068) ACTIVITY_LOG: Log stored. Total: 25[0m
+[2026-05-18 16:14:27] [0;32mI (61098) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:27] [0;33mW (61128) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:27] [0;32mI (61158) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:31] [0;32mI (64638) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:14:31] [0;32mI (64678) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:14:31] [0;32mI (64708) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:14:31] [0;32mI (64768) ACTIVITY_LOG: Log stored. Total: 26[0m
+[2026-05-18 16:14:31] [0;32mI (64798) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:31] [0;33mW (64828) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:31] [0;32mI (65018) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:33] [0;32mI (66708) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:14:33] [0;32mI (66748) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:14:33] [0;32mI (66778) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:14:33] [0;32mI (66838) ACTIVITY_LOG: Log stored. Total: 27[0m
+[2026-05-18 16:14:33] [0;32mI (66868) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:33] [0;33mW (66898) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:33] [0;32mI (66938) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:36] [0;32mI (69658) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:14:36] [0;32mI (69698) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:14:36] [0;32mI (69728) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:14:36] [0;32mI (69808) ACTIVITY_LOG: Log stored. Total: 28[0m
+[2026-05-18 16:14:36] [0;32mI (69848) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:36] [0;33mW (70028) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:36] [0;32mI (70058) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:38] [0;32mI (72088) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:14:38] [0;32mI (72128) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:14:38] [0;32mI (72168) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:14:38] [0;32mI (72238) ACTIVITY_LOG: Log stored. Total: 29[0m
+[2026-05-18 16:14:38] [0;32mI (72278) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:38] [0;33mW (72328) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:38] [0;32mI (72368) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:41] [0;32mI (75138) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:14:41] [0;32mI (75188) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:14:41] [0;32mI (75238) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:14:42] [0;32mI (75308) ACTIVITY_LOG: Log stored. Total: 30[0m
+[2026-05-18 16:14:42] [0;32mI (75508) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:42] [0;33mW (75568) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:42] [0;32mI (75578) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:43] [0;32mI (77368) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:14:43] [0;32mI (77388) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:14:43] [0;32mI (77418) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:14:44] [0;32mI (77478) ACTIVITY_LOG: Log stored. Total: 31[0m
+[2026-05-18 16:14:44] [0;32mI (77508) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:44] [0;33mW (77538) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:44] [0;32mI (77568) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:45] [0;32mI (79418) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:14:46] [0;32mI (79458) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:14:46] [0;33mW (79488) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:14:46] [0;33mW (79518) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:46] [0;32mI (79708) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:50] [0;32mI (83458) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:14:50] [0;32mI (83498) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:14:50] [0;32mI (83528) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:14:50] [0;32mI (83588) ACTIVITY_LOG: Log stored. Total: 32[0m
+[2026-05-18 16:14:50] [0;32mI (83618) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:50] [0;33mW (83648) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:50] [0;32mI (83678) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:52] [0;32mI (86248) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:14:52] [0;32mI (86288) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:14:52] [0;32mI (86318) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:14:52] [0;32mI (86378) ACTIVITY_LOG: Log stored. Total: 33[0m
+[2026-05-18 16:14:53] [0;32mI (86418) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:53] [0;33mW (86608) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:53] [0;32mI (86638) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:56] [0;32mI (89938) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:14:56] [0;32mI (89978) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:14:56] [0;32mI (90008) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:14:56] [0;32mI (90078) ACTIVITY_LOG: Log stored. Total: 34[0m
+[2026-05-18 16:14:56] [0;32mI (90118) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:56] [0;33mW (90158) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:56] [0;32mI (90198) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:14:59] [0;32mI (92678) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:14:59] [0;32mI (92718) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:14:59] [0;32mI (92758) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:14:59] [0;32mI (92848) ACTIVITY_LOG: Log stored. Total: 35[0m
+[2026-05-18 16:14:59] [0;32mI (93038) LORA_RECEIVE: Received at: 18-05-2026 16:14[0m
+[2026-05-18 16:14:59] [0;33mW (93078) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:14:59] [0;32mI (93118) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:15:01] [0;32mI (95278) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:15:01] [0;32mI (95318) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:15:01] [0;32mI (95368) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:15:02] [0;32mI (95448) ACTIVITY_LOG: Log stored. Total: 36[0m
+[2026-05-18 16:15:02] [0;32mI (95488) LORA_RECEIVE: Received at: 18-05-2026 16:15[0m
+[2026-05-18 16:15:02] [0;33mW (95568) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:15:02] [0;32mI (95598) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:16:28] [0;32mI (182088) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:16:28] [0;32mI (182128) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:16:28] [0;32mI (182158) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:16:28] [0;32mI (182378) ACTIVITY_LOG: Log stored. Total: 37[0m
+[2026-05-18 16:16:28] [0;32mI (182398) LORA_RECEIVE: Received at: 18-05-2026 16:16[0m
+[2026-05-18 16:16:29] [0;33mW (182418) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:16:29] [0;32mI (182468) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:16:30] [0;32mI (184368) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:16:30] [0;32mI (184388) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:16:31] [0;32mI (184438) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:16:31] [0;32mI (184498) ACTIVITY_LOG: Log stored. Total: 38[0m
+[2026-05-18 16:16:31] [0;32mI (184528) LORA_RECEIVE: Received at: 18-05-2026 16:16[0m
+[2026-05-18 16:16:31] [0;33mW (184558) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:16:31] [0;32mI (184588) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:16:34] [0;32mI (187718) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:16:34] [0;32mI (187758) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:16:34] [0;32mI (187788) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:16:34] [0;32mI (188008) ACTIVITY_LOG: Log stored. Total: 39[0m
+[2026-05-18 16:16:34] [0;32mI (188038) LORA_RECEIVE: Received at: 18-05-2026 16:16[0m
+[2026-05-18 16:16:34] [0;33mW (188068) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:16:34] [0;32mI (188098) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:16:36] [0;32mI (189918) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:16:36] [0;32mI (189958) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:16:36] [0;32mI (189988) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:16:36] [0;32mI (190048) ACTIVITY_LOG: Log stored. Total: 40[0m
+[2026-05-18 16:16:36] [0;32mI (190088) LORA_RECEIVE: Received at: 18-05-2026 16:16[0m
+[2026-05-18 16:16:36] [0;33mW (190118) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:16:36] [0;32mI (190148) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:16:38] [0;32mI (192128) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:16:38] [0;32mI (192168) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:16:38] [0;33mW (192368) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:16:38] [0;33mW (192408) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:16:39] [0;32mI (192438) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:16:42] [0;32mI (195518) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:16:42] [0;32mI (195558) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:16:42] [0;32mI (195598) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:16:42] [0;32mI (195668) ACTIVITY_LOG: Log stored. Total: 41[0m
+[2026-05-18 16:16:42] [0;32mI (195708) LORA_RECEIVE: Received at: 18-05-2026 16:16[0m
+[2026-05-18 16:16:42] [0;33mW (195748) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:16:42] [0;32mI (195788) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:16:44] [0;32mI (198368) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:16:44] [0;32mI (198418) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:16:45] [0;32mI (198468) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:16:45] [0;32mI (198698) ACTIVITY_LOG: Log stored. Total: 42[0m
+[2026-05-18 16:16:45] [0;32mI (198738) LORA_RECEIVE: Received at: 18-05-2026 16:16[0m
+[2026-05-18 16:16:45] [0;33mW (198788) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:16:45] [0;32mI (198818) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:16:49] [0;32mI (202978) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:16:49] [0;32mI (202998) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:16:49] [0;32mI (203028) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:16:49] [0;32mI (203108) ACTIVITY_LOG: Log stored. Total: 43[0m
+[2026-05-18 16:16:49] [0;32mI (203138) LORA_RECEIVE: Received at: 18-05-2026 16:16[0m
+[2026-05-18 16:16:49] [0;33mW (203168) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:16:49] [0;32mI (203198) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:16:52] [0;32mI (205548) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:16:52] [0;32mI (205588) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:16:52] [0;32mI (205618) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:16:52] [0;32mI (205838) ACTIVITY_LOG: Log stored. Total: 44[0m
+[2026-05-18 16:16:52] [0;32mI (205868) LORA_RECEIVE: Received at: 18-05-2026 16:16[0m
+[2026-05-18 16:16:52] [0;33mW (205898) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:16:52] [0;32mI (205928) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:16:55] [0;32mI (209308) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:16:55] [0;32mI (209348) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:16:55] [0;32mI (209378) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:16:56] [0;32mI (209438) ACTIVITY_LOG: Log stored. Total: 45[0m
+[2026-05-18 16:16:56] [0;32mI (209468) LORA_RECEIVE: Received at: 18-05-2026 16:16[0m
+[2026-05-18 16:16:56] [0;33mW (209498) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:16:56] [0;32mI (209528) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:17:19] [0;32mI (232918) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:17:19] [0;32mI (232958) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:17:19] [0;32mI (233148) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:17:19] [0;32mI (233208) ACTIVITY_LOG: Log stored. Total: 46[0m
+[2026-05-18 16:17:19] [0;32mI (233248) LORA_RECEIVE: Received at: 18-05-2026 16:17[0m
+[2026-05-18 16:17:19] [0;33mW (233288) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:17:19] [0;32mI (233318) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:17:22] [0;32mI (235688) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:17:22] [0;32mI (235728) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:17:22] [0;32mI (235768) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:17:22] [0;32mI (235838) ACTIVITY_LOG: Log stored. Total: 47[0m
+[2026-05-18 16:17:22] [0;32mI (235888) LORA_RECEIVE: Received at: 18-05-2026 16:17[0m
+[2026-05-18 16:17:22] [0;33mW (235928) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:17:22] [0;32mI (235968) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:17:25] [0;32mI (239228) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:17:25] [0;32mI (239418) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:17:26] [0;32mI (239458) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:17:26] [0;32mI (239528) ACTIVITY_LOG: Log stored. Total: 48[0m
+[2026-05-18 16:17:26] [0;32mI (239568) LORA_RECEIVE: Received at: 18-05-2026 16:17[0m
+[2026-05-18 16:17:26] [0;33mW (239608) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:17:26] [0;32mI (239648) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:17:28] [0;32mI (241488) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:17:28] [0;32mI (241538) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:17:28] [0;32mI (241578) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:17:28] [0;32mI (241658) ACTIVITY_LOG: Log stored. Total: 49[0m
+[2026-05-18 16:17:28] [0;32mI (241688) LORA_RECEIVE: Received at: 18-05-2026 16:17[0m
+[2026-05-18 16:17:28] [0;33mW (241718) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:17:28] [0;32mI (241748) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:17:29] [0;32mI (243208) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:17:29] [0;32mI (243228) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:17:29] [0;33mW (243258) LORA_RECEIVE: Duplicate suppressed: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:17:29] [0;33mW (243288) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:17:29] [0;32mI (243318) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:17:32] [0;32mI (245468) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:17:32] [0;32mI (245488) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:17:32] [0;32mI (245518) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:17:32] [0;32mI (245598) ACTIVITY_LOG: Log stored. Total: 50[0m
+[2026-05-18 16:17:32] [0;32mI (245638) LORA_RECEIVE: Received at: 18-05-2026 16:17[0m
+[2026-05-18 16:17:32] [0;33mW (245668) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:17:32] [0;32mI (245698) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:17:34] [0;32mI (247608) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:17:34] [0;32mI (247648) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:17:34] [0;32mI (247838) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:17:34] [0;32mI (247908) ACTIVITY_LOG: Log stored. Total: 51[0m
+[2026-05-18 16:17:34] [0;32mI (247938) LORA_RECEIVE: Received at: 18-05-2026 16:17[0m
+[2026-05-18 16:17:34] [0;33mW (247968) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:17:34] [0;32mI (247998) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:18:15] [0;32mI (289008) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:18:15] [0;32mI (289048) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:18:15] [0;32mI (289078) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:18:15] [0;32mI (289148) ACTIVITY_LOG: Log stored. Total: 52[0m
+[2026-05-18 16:18:15] [0;32mI (289178) LORA_RECEIVE: Received at: 18-05-2026 16:18[0m
+[2026-05-18 16:18:15] [0;33mW (289218) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:18:15] [0;32mI (289258) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:18:18] [0;32mI (292208) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:18:18] [0;32mI (292398) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:18:19] [0;32mI (292428) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:18:19] [0;32mI (292508) ACTIVITY_LOG: Log stored. Total: 53[0m
+[2026-05-18 16:18:19] [0;32mI (292538) LORA_RECEIVE: Received at: 18-05-2026 16:18[0m
+[2026-05-18 16:18:19] [0;33mW (292568) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:18:19] [0;32mI (292608) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:18:27] [0;32mI (300798) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:18:27] [0;32mI (300838) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:18:27] [0;32mI (300878) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:18:27] [0;32mI (300968) ACTIVITY_LOG: Log stored. Total: 54[0m
+[2026-05-18 16:18:27] [0;32mI (301008) LORA_RECEIVE: Received at: 18-05-2026 16:18[0m
+[2026-05-18 16:18:27] [0;33mW (301058) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:18:27] [0;32mI (301098) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:32:58] [0;32mI (1171588) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:32:58] [0;32mI (1171628) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:32:58] [0;32mI (1171688) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:32:58] [0;32mI (1171748) ACTIVITY_LOG: Log stored. Total: 55[0m
+[2026-05-18 16:32:58] [0;32mI (1171778) LORA_RECEIVE: Received at: 18-05-2026 16:32[0m
+[2026-05-18 16:32:58] [0;33mW (1171808) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:32:58] [0;32mI (1171838) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:33:19] [0;32mI (1192478) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:33:19] [0;32mI (1192518) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:33:19] [0;32mI (1192548) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:33:19] [0;32mI (1192618) ACTIVITY_LOG: Log stored. Total: 56[0m
+[2026-05-18 16:33:19] [0;32mI (1192648) LORA_RECEIVE: Received at: 18-05-2026 16:33[0m
+[2026-05-18 16:33:19] [0;33mW (1192688) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:33:19] [0;32mI (1192878) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:33:25] [0;32mI (1199408) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:33:26] [0;32mI (1199448) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:33:26] [0;32mI (1199478) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:33:26] [0;32mI (1199548) ACTIVITY_LOG: Log stored. Total: 57[0m
+[2026-05-18 16:33:26] [0;32mI (1199578) LORA_RECEIVE: Received at: 18-05-2026 16:33[0m
+[2026-05-18 16:33:26] [0;33mW (1199608) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:33:26] [0;32mI (1199638) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:35:00] [0;32mI (1293768) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:35:00] [0;32mI (1293808) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:35:00] [0;32mI (1293838) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:35:00] [0;32mI (1293908) ACTIVITY_LOG: Log stored. Total: 58[0m
+[2026-05-18 16:35:00] [0;32mI (1293938) LORA_RECEIVE: Received at: 18-05-2026 16:35[0m
+[2026-05-18 16:35:00] [0;33mW (1294118) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:35:00] [0;32mI (1294158) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:35:09] [0;32mI (1303008) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:35:09] [0;32mI (1303048) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:35:09] [0;32mI (1303078) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:35:09] [0;32mI (1303158) ACTIVITY_LOG: Log stored. Total: 59[0m
+[2026-05-18 16:35:09] [0;32mI (1303198) LORA_RECEIVE: Received at: 18-05-2026 16:35[0m
+[2026-05-18 16:35:09] [0;33mW (1303228) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:35:09] [0;32mI (1303278) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:43:15] [0;32mI (1789418) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:43:16] [0;32mI (1789458) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:43:16] [0;32mI (1789498) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:43:16] [0;32mI (1789598) ACTIVITY_LOG: Log stored. Total: 60[0m
+[2026-05-18 16:43:16] [0;32mI (1789788) LORA_RECEIVE: Received at: 18-05-2026 16:43[0m
+[2026-05-18 16:43:16] [0;33mW (1789828) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:43:16] [0;32mI (1789858) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:43:50] [0;32mI (1823918) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:43:50] [0;32mI (1823968) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:43:50] [0;32mI (1824008) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:43:50] [0;32mI (1824098) ACTIVITY_LOG: Log stored. Total: 61[0m
+[2026-05-18 16:43:50] [0;32mI (1824138) LORA_RECEIVE: Received at: 18-05-2026 16:43[0m
+[2026-05-18 16:43:50] [0;33mW (1824188) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:43:50] [0;32mI (1824248) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:44:15] [0;32mI (1848888) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:44:15] [0;32mI (1848908) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:44:15] [0;32mI (1848958) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:44:15] [0;32mI (1849178) ACTIVITY_LOG: Log stored. Total: 62[0m
+[2026-05-18 16:44:15] [0;32mI (1849208) LORA_RECEIVE: Received at: 18-05-2026 16:44[0m
+[2026-05-18 16:44:15] [0;33mW (1849238) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:44:15] [0;32mI (1849268) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:44:18] [0;32mI (1851428) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:44:18] [0;32mI (1851458) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:44:18] [0;32mI (1851498) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:44:18] [0;32mI (1851568) ACTIVITY_LOG: Log stored. Total: 63[0m
+[2026-05-18 16:44:18] [0;32mI (1851598) LORA_RECEIVE: Received at: 18-05-2026 16:44[0m
+[2026-05-18 16:44:18] [0;33mW (1851628) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:44:18] [0;32mI (1851658) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:44:40] [0;32mI (1873488) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:44:40] [0;32mI (1873528) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:44:40] [0;32mI (1873558) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:44:40] [0;32mI (1873778) ACTIVITY_LOG: Log stored. Total: 64[0m
+[2026-05-18 16:44:40] [0;32mI (1873808) LORA_RECEIVE: Received at: 18-05-2026 16:44[0m
+[2026-05-18 16:44:40] [0;33mW (1873838) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:44:40] [0;32mI (1873868) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:45:26] [0;32mI (1919498) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 16:45:26] [0;32mI (1919538) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 16:45:26] [0;32mI (1919568) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 16:45:26] [0;32mI (1919648) ACTIVITY_LOG: Log stored. Total: 65[0m
+[2026-05-18 16:45:26] [0;32mI (1919698) LORA_RECEIVE: Received at: 18-05-2026 16:45[0m
+[2026-05-18 16:45:26] [0;33mW (1919728) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:45:26] [0;32mI (1919768) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:45:30] [0;32mI (1923508) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:45:30] [0;32mI (1923548) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:45:30] [0;32mI (1923738) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:45:30] [0;32mI (1923808) ACTIVITY_LOG: Log stored. Total: 66[0m
+[2026-05-18 16:45:30] [0;32mI (1923858) LORA_RECEIVE: Received at: 18-05-2026 16:45[0m
+[2026-05-18 16:45:30] [0;33mW (1923898) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:45:30] [0;32mI (1923928) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 16:45:35] [0;32mI (1929118) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 16:45:35] [0;32mI (1929158) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 16:45:35] [0;32mI (1929198) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 16:45:35] [0;32mI (1929288) ACTIVITY_LOG: Log stored. Total: 67[0m
+[2026-05-18 16:45:35] [0;32mI (1929328) LORA_RECEIVE: Received at: 18-05-2026 16:45[0m
+[2026-05-18 16:45:35] [0;33mW (1929378) LORA: Entering the receiver mode...[0m
+[2026-05-18 16:45:35] [0;32mI (1929418) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:01:25] [0;32mI (2879298) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:01:26] [0;32mI (2879498) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:01:26] [0;32mI (2879538) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:01:26] [0;32mI (2879618) ACTIVITY_LOG: Log stored. Total: 68[0m
+[2026-05-18 17:01:26] [0;32mI (2879648) LORA_RECEIVE: Received at: 18-05-2026 17:01[0m
+[2026-05-18 17:01:26] [0;33mW (2879668) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:01:26] [0;32mI (2879688) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:01:30] [0;32mI (2883858) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:01:30] [0;32mI (2883878) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:01:30] [0;32mI (2883908) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:01:30] [0;32mI (2883998) ACTIVITY_LOG: Log stored. Total: 69[0m
+[2026-05-18 17:01:30] [0;32mI (2884028) LORA_RECEIVE: Received at: 18-05-2026 17:01[0m
+[2026-05-18 17:01:30] [0;33mW (2884058) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:01:30] [0;32mI (2884088) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:01:34] [0;32mI (2888208) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:01:34] [0;32mI (2888248) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:01:34] [0;32mI (2888278) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:01:34] [0;32mI (2888348) ACTIVITY_LOG: Log stored. Total: 70[0m
+[2026-05-18 17:01:34] [0;32mI (2888378) LORA_RECEIVE: Received at: 18-05-2026 17:01[0m
+[2026-05-18 17:01:34] [0;33mW (2888408) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:01:35] [0;32mI (2888448) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:01:37] [0;32mI (2890638) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:01:37] [0;32mI (2890678) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:01:37] [0;32mI (2890708) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:01:37] [0;32mI (2890778) ACTIVITY_LOG: Log stored. Total: 71[0m
+[2026-05-18 17:01:37] [0;32mI (2890808) LORA_RECEIVE: Received at: 18-05-2026 17:01[0m
+[2026-05-18 17:01:37] [0;33mW (2890858) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:01:37] [0;32mI (2891048) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:01:39] [0;32mI (2893408) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:01:40] [0;32mI (2893448) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:01:40] [0;32mI (2893478) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:01:40] [0;32mI (2893548) ACTIVITY_LOG: Log stored. Total: 72[0m
+[2026-05-18 17:01:40] [0;32mI (2893598) LORA_RECEIVE: Received at: 18-05-2026 17:01[0m
+[2026-05-18 17:01:40] [0;33mW (2893628) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:01:40] [0;32mI (2893668) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:01:41] [0;32mI (2895408) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:01:42] [0;32mI (2895448) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:01:42] [0;33mW (2895488) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:01:42] [0;33mW (2895538) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:01:42] [0;32mI (2895578) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:01:45] [0;32mI (2898498) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:01:45] [0;32mI (2898688) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:01:45] [0;32mI (2898728) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:01:45] [0;32mI (2898808) ACTIVITY_LOG: Log stored. Total: 73[0m
+[2026-05-18 17:01:45] [0;32mI (2898848) LORA_RECEIVE: Received at: 18-05-2026 17:01[0m
+[2026-05-18 17:01:45] [0;33mW (2898888) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:01:45] [0;32mI (2898928) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:01:47] [0;32mI (2901358) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:01:47] [0;32mI (2901408) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:01:48] [0;32mI (2901448) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:01:48] [0;32mI (2901568) ACTIVITY_LOG: Log stored. Total: 74[0m
+[2026-05-18 17:01:48] [0;32mI (2901598) LORA_RECEIVE: Received at: 18-05-2026 17:01[0m
+[2026-05-18 17:01:48] [0;33mW (2901628) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:01:48] [0;32mI (2901658) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:01:52] [0;32mI (2905438) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:01:52] [0;32mI (2905458) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:01:52] [0;32mI (2905488) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:01:52] [0;32mI (2905578) ACTIVITY_LOG: Log stored. Total: 75[0m
+[2026-05-18 17:01:52] [0;32mI (2905608) LORA_RECEIVE: Received at: 18-05-2026 17:01[0m
+[2026-05-18 17:01:52] [0;33mW (2905638) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:01:52] [0;32mI (2905668) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:01:55] [0;32mI (2908958) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:01:55] [0;32mI (2908998) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:01:55] [0;32mI (2909028) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:01:55] [0;32mI (2909098) ACTIVITY_LOG: Log stored. Total: 76[0m
+[2026-05-18 17:01:55] [0;32mI (2909128) LORA_RECEIVE: Received at: 18-05-2026 17:01[0m
+[2026-05-18 17:01:55] [0;33mW (2909178) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:01:55] [0;32mI (2909358) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:01:59] [0;32mI (2913118) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:01:59] [0;32mI (2913158) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:01:59] [0;32mI (2913188) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:01:59] [0;32mI (2913258) ACTIVITY_LOG: Log stored. Total: 77[0m
+[2026-05-18 17:01:59] [0;32mI (2913308) LORA_RECEIVE: Received at: 18-05-2026 17:01[0m
+[2026-05-18 17:01:59] [0;33mW (2913338) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:01:59] [0;32mI (2913368) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:14] [0;32mI (2927458) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:02:14] [0;32mI (2927498) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:02:14] [0;32mI (2927538) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:02:14] [0;32mI (2927648) ACTIVITY_LOG: Log stored. Total: 78[0m
+[2026-05-18 17:02:14] [0;32mI (2927678) LORA_RECEIVE: Received at: 18-05-2026 17:02[0m
+[2026-05-18 17:02:14] [0;33mW (2927868) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:14] [0;32mI (2927908) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:16] [0;32mI (2929838) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:02:16] [0;32mI (2929878) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:02:16] [0;32mI (2929918) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:02:16] [0;32mI (2929978) ACTIVITY_LOG: Log stored. Total: 79[0m
+[2026-05-18 17:02:16] [0;32mI (2930018) LORA_RECEIVE: Received at: 18-05-2026 17:02[0m
+[2026-05-18 17:02:16] [0;33mW (2930058) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:16] [0;32mI (2930098) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:21] [0;32mI (2934898) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:02:21] [0;32mI (2934948) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:02:21] [0;32mI (2934988) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:02:21] [0;32mI (2935068) ACTIVITY_LOG: Log stored. Total: 80[0m
+[2026-05-18 17:02:21] [0;32mI (2935268) LORA_RECEIVE: Received at: 18-05-2026 17:02[0m
+[2026-05-18 17:02:21] [0;33mW (2935308) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:21] [0;32mI (2935348) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:24] [0;32mI (2937898) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:02:24] [0;32mI (2937918) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:02:24] [0;32mI (2937948) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:02:24] [0;32mI (2938008) ACTIVITY_LOG: Log stored. Total: 81[0m
+[2026-05-18 17:02:24] [0;32mI (2938038) LORA_RECEIVE: Received at: 18-05-2026 17:02[0m
+[2026-05-18 17:02:24] [0;33mW (2938068) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:24] [0;32mI (2938098) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:31] [0;32mI (2945078) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:02:31] [0;32mI (2945108) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:02:31] [0;32mI (2945138) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:02:31] [0;32mI (2945348) ACTIVITY_LOG: Log stored. Total: 82[0m
+[2026-05-18 17:02:31] [0;32mI (2945378) LORA_RECEIVE: Received at: 18-05-2026 17:02[0m
+[2026-05-18 17:02:31] [0;33mW (2945408) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:32] [0;32mI (2945438) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:34] [0;32mI (2948248) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:02:34] [0;32mI (2948288) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:02:34] [0;32mI (2948318) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:02:34] [0;32mI (2948378) ACTIVITY_LOG: Log stored. Total: 83[0m
+[2026-05-18 17:02:34] [0;32mI (2948408) LORA_RECEIVE: Received at: 18-05-2026 17:02[0m
+[2026-05-18 17:02:35] [0;33mW (2948438) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:35] [0;32mI (2948478) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:37] [0;32mI (2950468) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:02:37] [0;32mI (2950508) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:02:37] [0;32mI (2950538) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:02:37] [0;32mI (2950748) ACTIVITY_LOG: Log stored. Total: 84[0m
+[2026-05-18 17:02:37] [0;32mI (2950788) LORA_RECEIVE: Received at: 18-05-2026 17:02[0m
+[2026-05-18 17:02:37] [0;33mW (2950818) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:37] [0;32mI (2950848) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:39] [0;32mI (2952918) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:02:39] [0;32mI (2952958) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:02:39] [0;33mW (2952988) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:02:39] [0;33mW (2953028) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:39] [0;32mI (2953068) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:44] [0;32mI (2957788) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:02:44] [0;32mI (2957828) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:02:44] [0;32mI (2957868) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:02:44] [0;32mI (2957948) ACTIVITY_LOG: Log stored. Total: 85[0m
+[2026-05-18 17:02:44] [0;32mI (2958138) LORA_RECEIVE: Received at: 18-05-2026 17:02[0m
+[2026-05-18 17:02:44] [0;33mW (2958178) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:44] [0;32mI (2958218) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:47] [0;32mI (2960938) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:02:47] [0;32mI (2960978) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:02:47] [0;32mI (2961018) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:02:47] [0;32mI (2961098) ACTIVITY_LOG: Log stored. Total: 86[0m
+[2026-05-18 17:02:47] [0;32mI (2961138) LORA_RECEIVE: Received at: 18-05-2026 17:02[0m
+[2026-05-18 17:02:47] [0;33mW (2961188) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:47] [0;32mI (2961258) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:50] [0;32mI (2963628) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:02:50] [0;32mI (2963668) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:02:50] [0;32mI (2963698) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:02:50] [0;32mI (2963898) ACTIVITY_LOG: Log stored. Total: 87[0m
+[2026-05-18 17:02:50] [0;32mI (2963928) LORA_RECEIVE: Received at: 18-05-2026 17:02[0m
+[2026-05-18 17:02:50] [0;33mW (2963958) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:50] [0;32mI (2963988) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:52] [0;32mI (2965948) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:02:52] [0;32mI (2965968) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:02:52] [0;33mW (2965998) LORA_RECEIVE: Duplicate suppressed: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:02:52] [0;33mW (2966048) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:52] [0;32mI (2966078) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:02:56] [0;32mI (2969988) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:02:56] [0;32mI (2970028) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:02:56] [0;32mI (2970058) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:02:56] [0;32mI (2970118) ACTIVITY_LOG: Log stored. Total: 88[0m
+[2026-05-18 17:02:56] [0;32mI (2970148) LORA_RECEIVE: Received at: 18-05-2026 17:02[0m
+[2026-05-18 17:02:56] [0;33mW (2970338) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:02:56] [0;32mI (2970368) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:01] [0;32mI (2975358) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:03:01] [0;32mI (2975398) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:03:02] [0;32mI (2975428) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:03:02] [0;32mI (2975488) ACTIVITY_LOG: Log stored. Total: 89[0m
+[2026-05-18 17:03:02] [0;32mI (2975518) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:02] [0;33mW (2975548) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:02] [0;32mI (2975578) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:05] [0;32mI (2979088) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:03:05] [0;32mI (2979128) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:03:05] [0;32mI (2979158) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:03:05] [0;32mI (2979238) ACTIVITY_LOG: Log stored. Total: 90[0m
+[2026-05-18 17:03:05] [0;32mI (2979428) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:06] [0;33mW (2979468) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:06] [0;32mI (2979508) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:09] [0;32mI (2982808) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:03:09] [0;32mI (2982848) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:03:09] [0;32mI (2982888) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:03:09] [0;32mI (2982958) ACTIVITY_LOG: Log stored. Total: 91[0m
+[2026-05-18 17:03:09] [0;32mI (2982998) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:09] [0;33mW (2983038) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:09] [0;32mI (2983088) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:12] [0;32mI (2986358) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:03:12] [0;32mI (2986408) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:03:13] [0;32mI (2986448) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:03:13] [0;32mI (2986668) ACTIVITY_LOG: Log stored. Total: 92[0m
+[2026-05-18 17:03:13] [0;32mI (2986728) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:13] [0;33mW (2986778) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:13] [0;32mI (2986798) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:15] [0;32mI (2988428) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:03:15] [0;32mI (2988448) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:03:15] [0;32mI (2988478) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:03:15] [0;32mI (2988538) ACTIVITY_LOG: Log stored. Total: 93[0m
+[2026-05-18 17:03:15] [0;32mI (2988568) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:15] [0;33mW (2988598) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:15] [0;32mI (2988628) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:20] [0;32mI (2993808) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:03:20] [0;32mI (2993848) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:03:20] [0;32mI (2993878) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:03:20] [0;32mI (2994078) ACTIVITY_LOG: Log stored. Total: 94[0m
+[2026-05-18 17:03:20] [0;32mI (2994118) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:20] [0;33mW (2994158) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:20] [0;32mI (2994188) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:22] [0;32mI (2995868) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:03:22] [0;32mI (2995908) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:03:22] [0;32mI (2995938) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:03:22] [0;32mI (2995998) ACTIVITY_LOG: Log stored. Total: 95[0m
+[2026-05-18 17:03:22] [0;32mI (2996028) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:22] [0;33mW (2996058) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:22] [0;32mI (2996088) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:24] [0;32mI (2997938) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:03:24] [0;32mI (2997978) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:03:24] [0;33mW (2998168) LORA_RECEIVE: Duplicate suppressed: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:03:24] [0;33mW (2998198) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:24] [0;32mI (2998228) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:27] [0;32mI (3001058) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:03:27] [0;32mI (3001098) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:03:27] [0;32mI (3001138) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:03:27] [0;32mI (3001188) ACTIVITY_LOG: Log stored. Total: 96[0m
+[2026-05-18 17:03:27] [0;32mI (3001228) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:27] [0;33mW (3001268) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:27] [0;32mI (3001308) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:30] [0;32mI (3004068) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:03:30] [0;32mI (3004108) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:03:30] [0;32mI (3004158) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:03:30] [0;32mI (3004378) ACTIVITY_LOG: Log stored. Total: 97[0m
+[2026-05-18 17:03:31] [0;32mI (3004428) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:31] [0;33mW (3004468) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:31] [0;32mI (3004508) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:33] [0;32mI (3006738) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:03:33] [0;32mI (3006778) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:03:33] [0;32mI (3006818) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:03:33] [0;32mI (3006898) ACTIVITY_LOG: Log stored. Total: 98[0m
+[2026-05-18 17:03:33] [0;32mI (3006958) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:33] [0;33mW (3006988) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:33] [0;32mI (3007018) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:36] [0;32mI (3009468) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:03:36] [0;32mI (3009508) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:03:36] [0;32mI (3009538) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:03:36] [0;32mI (3009758) ACTIVITY_LOG: Log stored. Total: 99[0m
+[2026-05-18 17:03:36] [0;32mI (3009788) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:36] [0;33mW (3009818) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:36] [0;32mI (3009848) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:40] [0;32mI (3013488) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:03:40] [0;32mI (3013508) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:03:40] [0;32mI (3013548) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:03:40] [0;32mI (3013618) ACTIVITY_LOG: Log stored. Total: 100[0m
+[2026-05-18 17:03:40] [0;32mI (3013648) LORA_RECEIVE: Received at: 18-05-2026 17:03[0m
+[2026-05-18 17:03:40] [0;33mW (3013678) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:03:40] [0;32mI (3013708) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:03:57] [0;32mI (3031248) USB_UPDATE: USB connected - installing device[0m
+[2026-05-18 17:03:58] [0;32mI (3031658) USB_UPDATE: CSV copied to LittleFS[0m
+[2026-05-18 17:03:58] [0;32mI (3031708) PASSWORD: Password file copied to LittleFS[0m
+[2026-05-18 17:03:58] [0;32mI (3031748) WIFI_MANAGER: wifi cred txt copied to LittleFS[0m
+[2026-05-18 17:03:58] [0;32mI (3031798) PASSWORD: Password loaded[0m
+[2026-05-18 17:03:58] [0;32mI (3031838) WIFI_MANAGER: WiFi credentials loaded[0m
+[2026-05-18 17:03:58] [0;32mI (3031878) WIFI_MANAGER: SSID: Paras 2.4[0m
+[2026-05-18 17:03:58] [0;32mI (3031908) WIFI_MANAGER: PASS: 9890090011[0m
+[2026-05-18 17:04:22] [0;32mI (3056038) ACTIVITY_COPY: Activity log copied to USB successfully[0m
+[2026-05-18 17:04:22] [0;32mI (3056088) LOG_MANAGER: LittleFS log file size: 63640 bytes[0m
+[2026-05-18 17:04:22] [0;32mI (3056258) LOG_MANAGER: log.txt copied to USB successfully[0m
+[2026-05-18 17:04:22] [0;32mI (3056298) GITHUB_UPLOADER: Starting Base64 test...[0m
+[2026-05-18 17:04:22] [0;32mI (3056328) TIME: Year now = 2026[0m
+[2026-05-18 17:04:23] [0;32mI (3056368) TIME: Hour now = 17[0m
+[2026-05-18 17:04:23] [0;32mI (3056558) GITHUB_UPLOADER: Uploading as: (Log)18-05-2026_17:04.txt[0m
+[2026-05-18 17:04:23] [0;32mI (3056598) GITHUB_UPLOADER: File size: 64147 bytes[0m
+[2026-05-18 17:04:23] [0;31mE (3056658) GITHUB_UPLOADER: Base64 malloc failed[0m
+[2026-05-18 17:04:23] [0;32mI (3056698) GITHUB_UPLOADER: Starting Base64 test...[0m
+[2026-05-18 17:04:23] [0;32mI (3056738) TIME: Year now = 2026[0m
+[2026-05-18 17:04:23] [0;32mI (3056778) TIME: Hour now = 17[0m
+[2026-05-18 17:04:23] [0;32mI (3056818) GITHUB_UPLOADER: Uploading as: (Activity_Log)18-05-2026_17:04.txt[0m
+[2026-05-18 17:04:23] [0;32mI (3056868) GITHUB_UPLOADER: File size: 5300 bytes[0m
+[2026-05-18 17:04:23] [0;32mI (3056918) GITHUB_UPLOADER: Base64 size: 7068 bytes[0m
+[2026-05-18 17:04:23] [0;32mI (3056958) GITHUB_UPLOADER: Base64 preview: AEVFRUUAAAAAAAAAAAAAAABBMTA1AAAAAAAAAAAAAAAAMTgtMDUtMjAyNiAxNjowNwAMPOQARERERAAAAAAAAAAAAAAAAEExMDQA[0m
+[2026-05-18 17:04:23] [0;32mI (3057008) GITHUB_UPLOADER: JSON size: 7111[0m
+[2026-05-18 17:04:23] [0;32mI (3057048) GITHUB_UPLOADER: JSON preview: {"message":"ESP32 log upload","content":"AEVFRUUAAAAAAAAAAAAAAABBMTA1AAAAAAAAAAAAAAAAMTgtMDUtMjAyNiAxNjowNwAMPOQARERERAAAAAAAAAAAAAAAAEExMDQAAAAAAAAAA[0m
+[2026-05-18 17:04:23] [0;32mI (3057108) GITHUB_UPLOADER: Uploading to GitHub...[0m
+[2026-05-18 17:04:23] [0;32mI (3057158) GITHUB_UPLOADER: URL: https://api.github.com/repos/chipiotembedded/Abhay/contents/(Activity_Log)18-05-2026_17:04.txt[0m
+[2026-05-18 17:04:23] I (3057248) wifi:[2026-05-18 17:04:24] <ba-add>idx:1 (ifx:0, 40:ed:00:55:66:41), tid:4, ssn:1, winSize:64[2026-05-18 17:04:24] 
+[2026-05-18 17:04:25] [0;32mI (3058468) esp-x509-crt-bundle: Certificate validated[0m
+[2026-05-18 17:04:26] [0;32mI (3060068) GITHUB_UPLOADER: GitHub Status = 201[0m
+[2026-05-18 17:10:27] [0;31mE (3421148) USBH: Device 1 gone[0m
+[2026-05-18 17:10:27] [0;32mI (3421178) USB_UPDATE: USB disconnected[0m
+[2026-05-18 17:15:39] [0;32mI (3732788) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:15:39] [0;32mI (3732828) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:15:39] [0;32mI (3732858) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:15:39] [0;32mI (3732888) ACTIVITY_LOG: All logs cleared[0m
+[2026-05-18 17:15:39] [0;32mI (3732928) ACTIVITY_LOG: Log stored. Total: 1[0m
+[2026-05-18 17:15:39] [0;32mI (3732958) LORA_RECEIVE: Received at: 18-05-2026 17:15[0m
+[2026-05-18 17:15:39] [0;33mW (3732988) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:15:39] [0;32mI (3733148) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:15:41] [0;32mI (3734908) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:15:41] [0;32mI (3734948) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:15:41] [0;32mI (3734978) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:15:41] [0;32mI (3735018) ACTIVITY_LOG: Log stored. Total: 2[0m
+[2026-05-18 17:15:41] [0;32mI (3735048) LORA_RECEIVE: Received at: 18-05-2026 17:15[0m
+[2026-05-18 17:15:41] [0;33mW (3735098) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:15:41] [0;32mI (3735128) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:15:46] [0;32mI (3740008) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:15:46] [0;32mI (3740048) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:15:46] [0;32mI (3740078) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:15:46] [0;32mI (3740238) ACTIVITY_LOG: Log stored. Total: 3[0m
+[2026-05-18 17:15:46] [0;32mI (3740268) LORA_RECEIVE: Received at: 18-05-2026 17:15[0m
+[2026-05-18 17:15:46] [0;33mW (3740298) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:15:46] [0;32mI (3740328) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:15:49] [0;32mI (3743018) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:15:49] [0;32mI (3743058) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:15:49] [0;32mI (3743088) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:15:49] [0;32mI (3743158) ACTIVITY_LOG: Log stored. Total: 4[0m
+[2026-05-18 17:15:49] [0;32mI (3743208) LORA_RECEIVE: Received at: 18-05-2026 17:15[0m
+[2026-05-18 17:15:49] [0;33mW (3743248) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:15:49] [0;32mI (3743288) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:15:52] [0;32mI (3746318) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:15:53] [0;32mI (3746478) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:15:53] [0;32mI (3746518) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:15:53] [0;32mI (3746578) ACTIVITY_LOG: Log stored. Total: 5[0m
+[2026-05-18 17:15:53] [0;32mI (3746618) LORA_RECEIVE: Received at: 18-05-2026 17:15[0m
+[2026-05-18 17:15:53] [0;33mW (3746658) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:15:53] [0;32mI (3746708) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:15:55] [0;32mI (3749238) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:15:55] [0;32mI (3749288) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:15:55] [0;32mI (3749328) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:15:56] [0;32mI (3749508) ACTIVITY_LOG: Log stored. Total: 6[0m
+[2026-05-18 17:15:56] [0;32mI (3749568) LORA_RECEIVE: Received at: 18-05-2026 17:15[0m
+[2026-05-18 17:15:56] [0;33mW (3749578) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:15:56] [0;32mI (3749608) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:15:58] [0;32mI (3752098) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:15:58] [0;32mI (3752118) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:15:58] [0;32mI (3752148) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:15:58] [0;32mI (3752198) ACTIVITY_LOG: Log stored. Total: 7[0m
+[2026-05-18 17:15:58] [0;32mI (3752238) LORA_RECEIVE: Received at: 18-05-2026 17:15[0m
+[2026-05-18 17:15:58] [0;33mW (3752268) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:15:58] [0;32mI (3752408) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:01] [0;32mI (3754438) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:01] [0;32mI (3754458) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:01] [0;32mI (3754508) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:16:01] [0;32mI (3754548) ACTIVITY_LOG: Log stored. Total: 8[0m
+[2026-05-18 17:16:01] [0;32mI (3754588) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:01] [0;33mW (3754628) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:01] [0;32mI (3754658) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:03] [0;32mI (3757068) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:16:03] [0;32mI (3757208) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:16:03] [0;32mI (3757238) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:16:03] [0;32mI (3757278) ACTIVITY_LOG: Log stored. Total: 9[0m
+[2026-05-18 17:16:03] [0;32mI (3757328) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:03] [0;33mW (3757358) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:03] [0;32mI (3757388) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:06] [0;32mI (3760208) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:06] [0;32mI (3760248) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:06] [0;32mI (3760278) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:16:07] [0;32mI (3760478) ACTIVITY_LOG: Log stored. Total: 10[0m
+[2026-05-18 17:16:07] [0;32mI (3760508) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:07] [0;33mW (3760538) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:07] [0;32mI (3760578) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:09] [0;32mI (3762818) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:16:09] [0;32mI (3762858) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:16:09] [0;32mI (3762898) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:16:09] [0;32mI (3762968) ACTIVITY_LOG: Log stored. Total: 11[0m
+[2026-05-18 17:16:09] [0;32mI (3763018) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:09] [0;33mW (3763188) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:09] [0;32mI (3763218) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:10] [0;32mI (3763518) RTC_DRIVER: SNTP time sync callback received[0m
+[2026-05-18 17:16:12] [0;32mI (3765808) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:12] [0;32mI (3765848) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:12] [0;32mI (3765888) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:16:12] [0;32mI (3765958) ACTIVITY_LOG: Log stored. Total: 12[0m
+[2026-05-18 17:16:12] [0;32mI (3766018) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:12] [0;33mW (3766058) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:12] [0;32mI (3766108) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:14] [0;32mI (3767968) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:14] [0;32mI (3768038) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:14] [0;33mW (3768068) LORA_RECEIVE: Duplicate suppressed: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:14] [0;33mW (3768098) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:14] [0;32mI (3768268) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:16] [0;32mI (3770398) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:16] [0;32mI (3770418) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:17] [0;33mW (3770448) LORA_RECEIVE: Duplicate suppressed: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:17] [0;33mW (3770478) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:17] [0;32mI (3770508) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:22] [0;32mI (3775708) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:16:22] [0;32mI (3775728) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:16:22] [0;32mI (3775778) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:16:22] [0;32mI (3775838) ACTIVITY_LOG: Log stored. Total: 13[0m
+[2026-05-18 17:16:22] [0;32mI (3775868) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:22] [0;33mW (3775898) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:22] [0;32mI (3775928) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:24] [0;32mI (3778058) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:24] [0;32mI (3778248) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:24] [0;32mI (3778278) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:16:24] [0;32mI (3778338) ACTIVITY_LOG: Log stored. Total: 14[0m
+[2026-05-18 17:16:24] [0;32mI (3778368) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:24] [0;33mW (3778398) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:24] [0;32mI (3778428) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:27] [0;32mI (3781018) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:16:27] [0;32mI (3781058) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:16:27] [0;32mI (3781088) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:16:27] [0;32mI (3781158) ACTIVITY_LOG: Log stored. Total: 15[0m
+[2026-05-18 17:16:27] [0;32mI (3781188) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:27] [0;33mW (3781228) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:27] [0;32mI (3781268) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:30] [0;32mI (3784058) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:30] [0;32mI (3784098) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:30] [0;32mI (3784138) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:16:30] [0;32mI (3784198) ACTIVITY_LOG: Log stored. Total: 16[0m
+[2026-05-18 17:16:30] [0;32mI (3784238) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:30] [0;33mW (3784278) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:30] [0;32mI (3784328) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:33] [0;32mI (3786968) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:16:33] [0;32mI (3787008) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:16:33] [0;32mI (3787048) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:16:33] [0;32mI (3787128) ACTIVITY_LOG: Log stored. Total: 17[0m
+[2026-05-18 17:16:33] [0;32mI (3787168) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:33] [0;33mW (3787218) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:33] [0;32mI (3787408) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:36] [0;32mI (3790128) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:36] [0;32mI (3790198) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:36] [0;32mI (3790208) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:16:36] [0;32mI (3790268) ACTIVITY_LOG: Log stored. Total: 18[0m
+[2026-05-18 17:16:36] [0;32mI (3790298) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:36] [0;33mW (3790328) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:36] [0;32mI (3790358) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:38] [0;32mI (3792348) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:16:38] [0;32mI (3792388) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:16:38] [0;32mI (3792418) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:16:39] [0;32mI (3792478) ACTIVITY_LOG: Log stored. Total: 19[0m
+[2026-05-18 17:16:39] [0;32mI (3792508) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:39] [0;33mW (3792678) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:39] [0;32mI (3792728) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:41] [0;32mI (3794888) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:41] [0;32mI (3794928) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:41] [0;33mW (3794958) LORA_RECEIVE: Duplicate suppressed: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:41] [0;33mW (3794988) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:41] [0;32mI (3795018) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:44] [0;32mI (3797518) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:44] [0;32mI (3797558) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:44] [0;32mI (3797588) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:16:44] [0;32mI (3797648) ACTIVITY_LOG: Log stored. Total: 20[0m
+[2026-05-18 17:16:44] [0;32mI (3797678) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:44] [0;33mW (3797718) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:44] [0;32mI (3797758) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:46] [0;32mI (3800218) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:16:46] [0;32mI (3800258) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:16:46] [0;32mI (3800288) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:16:46] [0;32mI (3800348) ACTIVITY_LOG: Log stored. Total: 21[0m
+[2026-05-18 17:16:46] [0;32mI (3800378) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:46] [0;33mW (3800408) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:47] [0;32mI (3800458) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:50] [0;32mI (3803618) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:50] [0;32mI (3803658) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:50] [0;32mI (3803698) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:16:50] [0;32mI (3803768) ACTIVITY_LOG: Log stored. Total: 22[0m
+[2026-05-18 17:16:50] [0;32mI (3803828) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:50] [0;33mW (3803868) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:50] [0;32mI (3804058) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:52] [0;32mI (3806428) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:16:53] [0;32mI (3806468) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:16:53] [0;32mI (3806508) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:16:53] [0;32mI (3806578) ACTIVITY_LOG: Log stored. Total: 23[0m
+[2026-05-18 17:16:53] [0;32mI (3806628) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:53] [0;33mW (3806678) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:53] [0;32mI (3806728) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:56] [0;32mI (3809598) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:16:56] [0;32mI (3809668) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:16:56] [0;32mI (3809698) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:16:56] [0;32mI (3809758) ACTIVITY_LOG: Log stored. Total: 24[0m
+[2026-05-18 17:16:56] [0;32mI (3809788) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:56] [0;33mW (3809958) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:56] [0;32mI (3809988) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:16:58] [0;32mI (3812148) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:16:58] [0;32mI (3812168) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:16:58] [0;32mI (3812208) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:16:58] [0;32mI (3812278) ACTIVITY_LOG: Log stored. Total: 25[0m
+[2026-05-18 17:16:58] [0;32mI (3812308) LORA_RECEIVE: Received at: 18-05-2026 17:16[0m
+[2026-05-18 17:16:58] [0;33mW (3812338) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:16:58] [0;32mI (3812368) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:01] [0;32mI (3814858) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:17:01] [0;32mI (3814898) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:01] [0;32mI (3814928) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:17:01] [0;32mI (3814988) ACTIVITY_LOG: Log stored. Total: 26[0m
+[2026-05-18 17:17:01] [0;32mI (3815178) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:01] [0;33mW (3815208) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:01] [0;32mI (3815238) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:03] [0;32mI (3817358) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:17:03] [0;32mI (3817398) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:03] [0;32mI (3817428) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:17:04] [0;32mI (3817488) ACTIVITY_LOG: Log stored. Total: 27[0m
+[2026-05-18 17:17:04] [0;32mI (3817518) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:04] [0;33mW (3817548) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:04] [0;32mI (3817578) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:06] [0;32mI (3819888) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:17:06] [0;32mI (3819928) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:06] [0;32mI (3819968) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:17:06] [0;32mI (3820208) ACTIVITY_LOG: Log stored. Total: 28[0m
+[2026-05-18 17:17:06] [0;32mI (3820238) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:06] [0;33mW (3820278) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:06] [0;32mI (3820318) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:08] [0;32mI (3822388) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:17:08] [0;32mI (3822428) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:09] [0;32mI (3822468) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:17:09] [0;32mI (3822538) ACTIVITY_LOG: Log stored. Total: 29[0m
+[2026-05-18 17:17:09] [0;32mI (3822578) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:09] [0;33mW (3822628) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:09] [0;32mI (3822668) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:11] [0;32mI (3825058) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:17:11] [0;32mI (3825108) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:11] [0;32mI (3825148) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:17:11] [0;32mI (3825378) ACTIVITY_LOG: Log stored. Total: 30[0m
+[2026-05-18 17:17:11] [0;32mI (3825418) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:12] [0;33mW (3825478) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:12] [0;32mI (3825488) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:14] [0;32mI (3827638) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:17:14] [0;32mI (3827658) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:14] [0;32mI (3827688) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:17:14] [0;32mI (3827768) ACTIVITY_LOG: Log stored. Total: 31[0m
+[2026-05-18 17:17:14] [0;32mI (3827798) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:14] [0;33mW (3827828) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:14] [0;32mI (3827858) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:16] [0;32mI (3829958) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:17:16] [0;32mI (3829998) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:16] [0;32mI (3830188) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:17:16] [0;32mI (3830248) ACTIVITY_LOG: Log stored. Total: 32[0m
+[2026-05-18 17:17:16] [0;32mI (3830278) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:16] [0;33mW (3830308) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:16] [0;32mI (3830338) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:18] [0;32mI (3832148) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:17:18] [0;32mI (3832188) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:18] [0;33mW (3832218) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:18] [0;33mW (3832248) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:18] [0;32mI (3832278) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:20] [0;32mI (3834318) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:17:20] [0;32mI (3834358) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:20] [0;32mI (3834388) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:17:21] [0;32mI (3834618) ACTIVITY_LOG: Log stored. Total: 33[0m
+[2026-05-18 17:17:21] [0;32mI (3834648) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:21] [0;33mW (3834678) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:21] [0;32mI (3834708) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:25] [0;32mI (3838518) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:17:25] [0;32mI (3838558) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:25] [0;32mI (3838598) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:17:25] [0;32mI (3838668) ACTIVITY_LOG: Log stored. Total: 34[0m
+[2026-05-18 17:17:25] [0;32mI (3838708) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:25] [0;33mW (3838748) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:25] [0;32mI (3838788) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:28] [0;32mI (3841718) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:17:28] [0;32mI (3841758) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:28] [0;32mI (3841808) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:17:28] [0;32mI (3842028) ACTIVITY_LOG: Log stored. Total: 35[0m
+[2026-05-18 17:17:28] [0;32mI (3842068) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:28] [0;33mW (3842108) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:28] [0;32mI (3842148) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:31] [0;32mI (3844508) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:17:31] [0;32mI (3844558) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:31] [0;32mI (3844598) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:17:31] [0;32mI (3844678) ACTIVITY_LOG: Log stored. Total: 36[0m
+[2026-05-18 17:17:31] [0;32mI (3844738) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:31] [0;33mW (3844768) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:31] [0;32mI (3844798) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:33] [0;32mI (3847028) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:17:33] [0;32mI (3847048) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:33] [0;32mI (3847228) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:17:33] [0;32mI (3847288) ACTIVITY_LOG: Log stored. Total: 37[0m
+[2026-05-18 17:17:33] [0;32mI (3847338) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:33] [0;33mW (3847368) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:33] [0;32mI (3847398) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:35] [0;32mI (3849388) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:17:35] [0;32mI (3849428) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:36] [0;33mW (3849458) LORA_RECEIVE: Duplicate suppressed: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:36] [0;33mW (3849488) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:36] [0;32mI (3849518) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:38] [0;32mI (3851918) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:17:38] [0;32mI (3851958) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:38] [0;33mW (3851988) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:38] [0;33mW (3852018) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:38] [0;32mI (3852208) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:41] [0;32mI (3855328) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:17:41] [0;32mI (3855368) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:41] [0;32mI (3855398) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:17:42] [0;32mI (3855458) ACTIVITY_LOG: Log stored. Total: 38[0m
+[2026-05-18 17:17:42] [0;32mI (3855488) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:42] [0;33mW (3855528) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:42] [0;32mI (3855558) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:44] [0;32mI (3858288) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:17:44] [0;32mI (3858328) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:44] [0;32mI (3858368) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:17:44] [0;32mI (3858438) ACTIVITY_LOG: Log stored. Total: 39[0m
+[2026-05-18 17:17:45] [0;32mI (3858498) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:45] [0;33mW (3858688) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:45] [0;32mI (3858718) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:46] [0;32mI (3860188) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:17:46] [0;32mI (3860228) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:46] [0;33mW (3860268) LORA_RECEIVE: Duplicate suppressed: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:46] [0;33mW (3860308) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:46] [0;32mI (3860348) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:50] [0;32mI (3863468) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:17:50] [0;32mI (3863508) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:50] [0;32mI (3863548) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:17:50] [0;32mI (3863628) ACTIVITY_LOG: Log stored. Total: 40[0m
+[2026-05-18 17:17:50] [0;32mI (3863668) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:50] [0;33mW (3863718) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:50] [0;32mI (3863778) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:53] [0;32mI (3867138) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:17:53] [0;32mI (3867158) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:53] [0;32mI (3867188) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:17:53] [0;32mI (3867268) ACTIVITY_LOG: Log stored. Total: 41[0m
+[2026-05-18 17:17:53] [0;32mI (3867298) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:53] [0;33mW (3867328) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:53] [0;32mI (3867358) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:56] [0;32mI (3869928) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:17:56] [0;32mI (3869948) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:17:56] [0;32mI (3869998) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:17:56] [0;32mI (3870058) ACTIVITY_LOG: Log stored. Total: 42[0m
+[2026-05-18 17:17:56] [0;32mI (3870088) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:56] [0;33mW (3870118) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:56] [0;32mI (3870288) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:17:59] [0;32mI (3872598) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:17:59] [0;32mI (3872638) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:17:59] [0;32mI (3872668) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:17:59] [0;32mI (3872728) ACTIVITY_LOG: Log stored. Total: 43[0m
+[2026-05-18 17:17:59] [0;32mI (3872768) LORA_RECEIVE: Received at: 18-05-2026 17:17[0m
+[2026-05-18 17:17:59] [0;33mW (3872798) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:17:59] [0;32mI (3872828) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:18:02] [0;32mI (3876288) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:18:02] [0;32mI (3876328) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:18:02] [0;32mI (3876358) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:18:02] [0;32mI (3876428) ACTIVITY_LOG: Log stored. Total: 44[0m
+[2026-05-18 17:18:03] [0;32mI (3876468) LORA_RECEIVE: Received at: 18-05-2026 17:18[0m
+[2026-05-18 17:18:03] [0;33mW (3876658) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:18:03] [0;32mI (3876688) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:18:06] [0;32mI (3879898) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:18:06] [0;32mI (3879938) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:18:06] [0;32mI (3879978) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:18:06] [0;32mI (3880038) ACTIVITY_LOG: Log stored. Total: 45[0m
+[2026-05-18 17:18:06] [0;32mI (3880078) LORA_RECEIVE: Received at: 18-05-2026 17:18[0m
+[2026-05-18 17:18:06] [0;33mW (3880118) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:18:06] [0;32mI (3880158) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:18:10] [0;32mI (3883518) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:18:10] [0;32mI (3883558) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:18:10] [0;32mI (3883608) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:18:10] [0;32mI (3883698) ACTIVITY_LOG: Log stored. Total: 46[0m
+[2026-05-18 17:18:10] [0;32mI (3883888) LORA_RECEIVE: Received at: 18-05-2026 17:18[0m
+[2026-05-18 17:18:10] [0;33mW (3883918) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:18:10] [0;32mI (3883958) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:18:12] [0;32mI (3885908) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:18:12] [0;32mI (3885958) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:18:12] [0;32mI (3885998) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:18:12] [0;32mI (3886078) ACTIVITY_LOG: Log stored. Total: 47[0m
+[2026-05-18 17:18:12] [0;32mI (3886148) LORA_RECEIVE: Received at: 18-05-2026 17:18[0m
+[2026-05-18 17:18:12] [0;33mW (3886178) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:18:12] [0;32mI (3886208) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:18:16] [0;32mI (3889448) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:18:16] [0;32mI (3889468) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:18:16] [0;32mI (3889518) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:18:16] [0;32mI (3889738) ACTIVITY_LOG: Log stored. Total: 48[0m
+[2026-05-18 17:18:16] [0;32mI (3889768) LORA_RECEIVE: Received at: 18-05-2026 17:18[0m
+[2026-05-18 17:18:16] [0;33mW (3889798) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:18:16] [0;32mI (3889828) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:18:35] [0;32mI (3908898) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:18:35] [0;32mI (3908938) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:18:35] [0;32mI (3908968) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:18:35] [0;32mI (3909028) ACTIVITY_LOG: Log stored. Total: 49[0m
+[2026-05-18 17:18:35] [0;32mI (3909068) LORA_RECEIVE: Received at: 18-05-2026 17:18[0m
+[2026-05-18 17:18:35] [0;33mW (3909098) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:18:35] [0;32mI (3909128) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:18:40] [0;32mI (3914258) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:18:40] [0;32mI (3914298) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:18:41] [0;32mI (3914328) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:18:41] [0;32mI (3914548) ACTIVITY_LOG: Log stored. Total: 50[0m
+[2026-05-18 17:18:41] [0;32mI (3914578) LORA_RECEIVE: Received at: 18-05-2026 17:18[0m
+[2026-05-18 17:18:41] [0;33mW (3914608) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:18:41] [0;32mI (3914638) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:07] [0;32mI (3941088) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:19:07] [0;32mI (3941128) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:07] [0;32mI (3941188) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:19:07] [0;32mI (3941268) ACTIVITY_LOG: Log stored. Total: 51[0m
+[2026-05-18 17:19:07] [0;32mI (3941288) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:07] [0;33mW (3941328) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:07] [0;32mI (3941378) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:10] [0;32mI (3944048) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:19:10] [0;32mI (3944088) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:19:10] [0;32mI (3944278) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:19:10] [0;32mI (3944348) ACTIVITY_LOG: Log stored. Total: 52[0m
+[2026-05-18 17:19:10] [0;32mI (3944378) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:10] [0;33mW (3944408) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:10] [0;32mI (3944438) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:14] [0;32mI (3947458) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:19:14] [0;32mI (3947498) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:14] [0;32mI (3947538) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:19:14] [0;32mI (3947638) ACTIVITY_LOG: Log stored. Total: 53[0m
+[2026-05-18 17:19:14] [0;32mI (3947678) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:14] [0;33mW (3947728) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:14] [0;32mI (3947768) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:17] [0;32mI (3951208) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:19:17] [0;32mI (3951428) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:19:18] [0;32mI (3951438) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:19:18] [0;32mI (3951518) ACTIVITY_LOG: Log stored. Total: 54[0m
+[2026-05-18 17:19:18] [0;32mI (3951548) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:18] [0;33mW (3951578) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:18] [0;32mI (3951608) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:21] [0;32mI (3955068) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:19:21] [0;32mI (3955108) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:21] [0;32mI (3955138) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:19:21] [0;32mI (3955208) ACTIVITY_LOG: Log stored. Total: 55[0m
+[2026-05-18 17:19:21] [0;32mI (3955238) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:21] [0;33mW (3955268) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:21] [0;32mI (3955298) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:24] [0;32mI (3957618) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:19:24] [0;32mI (3957638) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:19:24] [0;32mI (3957688) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:19:24] [0;32mI (3957758) ACTIVITY_LOG: Log stored. Total: 56[0m
+[2026-05-18 17:19:24] [0;32mI (3957778) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:24] [0;33mW (3957808) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:24] [0;32mI (3957838) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:26] [0;32mI (3959988) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:19:26] [0;32mI (3960028) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:26] [0;33mW (3960058) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:26] [0;33mW (3960088) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:26] [0;32mI (3960118) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:28] [0;32mI (3961988) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:19:28] [0;32mI (3962028) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:28] [0;32mI (3962218) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:19:28] [0;32mI (3962288) ACTIVITY_LOG: Log stored. Total: 57[0m
+[2026-05-18 17:19:28] [0;32mI (3962308) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:28] [0;33mW (3962338) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:28] [0;32mI (3962388) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:31] [0;32mI (3964488) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:19:31] [0;32mI (3964528) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:19:31] [0;32mI (3964568) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:19:31] [0;32mI (3964648) ACTIVITY_LOG: Log stored. Total: 58[0m
+[2026-05-18 17:19:31] [0;32mI (3964688) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:31] [0;33mW (3964738) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:31] [0;32mI (3964778) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:33] [0;32mI (3966448) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:19:33] [0;32mI (3966638) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:33] [0;33mW (3966678) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:33] [0;33mW (3966708) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:33] [0;32mI (3966748) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:35] [0;32mI (3969178) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:19:35] [0;32mI (3969228) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:35] [0;32mI (3969288) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:19:35] [0;32mI (3969358) ACTIVITY_LOG: Log stored. Total: 59[0m
+[2026-05-18 17:19:35] [0;32mI (3969388) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:35] [0;33mW (3969418) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:36] [0;32mI (3969448) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:38] [0;32mI (3971508) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:19:38] [0;32mI (3971538) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:19:38] [0;32mI (3971568) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:19:38] [0;32mI (3971788) ACTIVITY_LOG: Log stored. Total: 60[0m
+[2026-05-18 17:19:38] [0;32mI (3971818) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:38] [0;33mW (3971848) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:38] [0;32mI (3971878) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:39] [0;32mI (3973338) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:19:39] [0;32mI (3973378) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:39] [0;33mW (3973408) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:39] [0;33mW (3973438) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:40] [0;32mI (3973468) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:41] [0;32mI (3975328) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:19:41] [0;32mI (3975368) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:41] [0;32mI (3975398) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:19:42] [0;32mI (3975508) ACTIVITY_LOG: Log stored. Total: 61[0m
+[2026-05-18 17:19:42] [0;32mI (3975688) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:42] [0;33mW (3975718) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:42] [0;32mI (3975748) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:50] [0;32mI (3983578) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:19:50] [0;32mI (3983618) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:19:50] [0;32mI (3983648) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:19:50] [0;32mI (3983728) ACTIVITY_LOG: Log stored. Total: 62[0m
+[2026-05-18 17:19:50] [0;32mI (3983748) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:50] [0;33mW (3983778) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:50] [0;32mI (3983818) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:19:52] [0;32mI (3986408) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:19:53] [0;32mI (3986448) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:19:53] [0;32mI (3986488) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:19:53] [0;32mI (3986718) ACTIVITY_LOG: Log stored. Total: 63[0m
+[2026-05-18 17:19:53] [0;32mI (3986748) LORA_RECEIVE: Received at: 18-05-2026 17:19[0m
+[2026-05-18 17:19:53] [0;33mW (3986788) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:19:53] [0;32mI (3986828) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:00] [0;32mI (3994088) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:20:00] [0;32mI (3994128) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:20:00] [0;32mI (3994178) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:20:00] [0;32mI (3994268) ACTIVITY_LOG: Log stored. Total: 64[0m
+[2026-05-18 17:20:00] [0;32mI (3994308) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:00] [0;33mW (3994358) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:00] [0;32mI (3994408) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:03] [0;32mI (3996908) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:20:03] [0;32mI (3996978) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:20:03] [0;32mI (3997008) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:20:03] [0;32mI (3997218) ACTIVITY_LOG: Log stored. Total: 65[0m
+[2026-05-18 17:20:03] [0;32mI (3997238) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:03] [0;33mW (3997268) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:03] [0;32mI (3997298) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:05] [0;32mI (3999068) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:20:05] [0;32mI (3999088) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:20:05] [0;33mW (3999118) LORA_RECEIVE: Duplicate suppressed: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:20:05] [0;33mW (3999168) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:05] [0;32mI (3999198) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:09] [0;32mI (4002888) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:20:09] [0;32mI (4002928) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:20:09] [0;32mI (4002958) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:20:09] [0;32mI (4003028) ACTIVITY_LOG: Log stored. Total: 66[0m
+[2026-05-18 17:20:09] [0;32mI (4003218) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:09] [0;33mW (4003248) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:09] [0;32mI (4003278) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:14] [0;32mI (4007538) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:20:14] [0;32mI (4007578) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:20:14] [0;32mI (4007608) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:20:14] [0;32mI (4007678) ACTIVITY_LOG: Log stored. Total: 67[0m
+[2026-05-18 17:20:14] [0;32mI (4007728) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:14] [0;33mW (4007758) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:14] [0;32mI (4007788) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:22] [0;32mI (4016418) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:20:23] [0;32mI (4016458) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:20:23] [0;32mI (4016488) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:20:23] [0;32mI (4016718) ACTIVITY_LOG: Log stored. Total: 68[0m
+[2026-05-18 17:20:23] [0;32mI (4016748) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:23] [0;33mW (4016778) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:23] [0;32mI (4016828) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:25] [0;32mI (4018768) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:20:25] [0;32mI (4018808) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:20:25] [0;32mI (4018848) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:20:25] [0;32mI (4018928) ACTIVITY_LOG: Log stored. Total: 69[0m
+[2026-05-18 17:20:25] [0;32mI (4018978) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:25] [0;33mW (4019018) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:25] [0;32mI (4019058) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:30] [0;32mI (4023578) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:20:30] [0;32mI (4023618) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:20:30] [0;32mI (4023668) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:20:30] [0;32mI (4023898) ACTIVITY_LOG: Log stored. Total: 70[0m
+[2026-05-18 17:20:30] [0;32mI (4023938) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:30] [0;33mW (4023978) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:30] [0;32mI (4024018) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:34] [0;32mI (4028278) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:20:34] [0;32mI (4028298) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:20:34] [0;32mI (4028328) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:20:34] [0;32mI (4028418) ACTIVITY_LOG: Log stored. Total: 71[0m
+[2026-05-18 17:20:35] [0;32mI (4028448) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:35] [0;33mW (4028478) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:35] [0;32mI (4028508) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:38] [0;32mI (4032348) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:20:39] [0;32mI (4032388) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:20:39] [0;32mI (4032558) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:20:39] [0;32mI (4032648) ACTIVITY_LOG: Log stored. Total: 72[0m
+[2026-05-18 17:20:39] [0;32mI (4032678) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:39] [0;33mW (4032708) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:39] [0;32mI (4032738) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:42] [0;32mI (4035988) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:20:42] [0;32mI (4036028) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:20:42] [0;32mI (4036058) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:20:42] [0;32mI (4036128) ACTIVITY_LOG: Log stored. Total: 73[0m
+[2026-05-18 17:20:42] [0;32mI (4036158) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:42] [0;33mW (4036208) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:42] [0;32mI (4036238) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:46] [0;32mI (4040198) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:20:46] [0;32mI (4040388) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:20:46] [0;32mI (4040418) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:20:47] [0;32mI (4040488) ACTIVITY_LOG: Log stored. Total: 74[0m
+[2026-05-18 17:20:47] [0;32mI (4040518) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:47] [0;33mW (4040558) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:47] [0;32mI (4040588) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:49] [0;32mI (4042938) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:20:49] [0;32mI (4042978) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:20:49] [0;32mI (4043018) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:20:49] [0;32mI (4043108) ACTIVITY_LOG: Log stored. Total: 75[0m
+[2026-05-18 17:20:49] [0;32mI (4043158) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:49] [0;33mW (4043198) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:49] [0;32mI (4043238) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:55] [0;32mI (4049408) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:20:56] [0;32mI (4049448) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:20:56] [0;32mI (4049488) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:20:56] [0;32mI (4049568) ACTIVITY_LOG: Log stored. Total: 76[0m
+[2026-05-18 17:20:56] [0;32mI (4049618) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:56] [0;33mW (4049658) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:56] [0;32mI (4049698) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:20:58] [0;32mI (4052168) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:20:58] [0;32mI (4052218) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:20:58] [0;32mI (4052258) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:20:58] [0;32mI (4052358) ACTIVITY_LOG: Log stored. Total: 77[0m
+[2026-05-18 17:20:58] [0;32mI (4052418) LORA_RECEIVE: Received at: 18-05-2026 17:20[0m
+[2026-05-18 17:20:59] [0;33mW (4052468) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:20:59] [0;32mI (4052638) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:21:03] [0;32mI (4057158) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:21:03] [0;32mI (4057178) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:21:03] [0;32mI (4057208) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:21:03] [0;32mI (4057318) ACTIVITY_LOG: Log stored. Total: 78[0m
+[2026-05-18 17:21:03] [0;32mI (4057348) LORA_RECEIVE: Received at: 18-05-2026 17:21[0m
+[2026-05-18 17:21:03] [0;33mW (4057378) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:21:03] [0;32mI (4057408) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:21:07] [0;32mI (4060528) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:21:07] [0;32mI (4060568) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:21:07] [0;32mI (4060598) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:21:07] [0;32mI (4060658) ACTIVITY_LOG: Log stored. Total: 79[0m
+[2026-05-18 17:21:07] [0;32mI (4060688) LORA_RECEIVE: Received at: 18-05-2026 17:21[0m
+[2026-05-18 17:21:07] [0;33mW (4060878) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:21:07] [0;32mI (4060908) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:21:14] [0;32mI (4068168) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:21:14] [0;32mI (4068208) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:21:14] [0;32mI (4068238) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:21:14] [0;32mI (4068298) ACTIVITY_LOG: Log stored. Total: 80[0m
+[2026-05-18 17:21:14] [0;32mI (4068328) LORA_RECEIVE: Received at: 18-05-2026 17:21[0m
+[2026-05-18 17:21:14] [0;33mW (4068358) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:21:14] [0;32mI (4068388) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:21:21] [0;32mI (4074818) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:21:21] [0;32mI (4074858) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:21:21] [0;32mI (4074888) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:21:21] [0;32mI (4074968) ACTIVITY_LOG: Log stored. Total: 81[0m
+[2026-05-18 17:21:21] [0;32mI (4075158) LORA_RECEIVE: Received at: 18-05-2026 17:21[0m
+[2026-05-18 17:21:21] [0;33mW (4075188) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:21:21] [0;32mI (4075228) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:21:24] [0;32mI (4078298) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:21:24] [0;32mI (4078338) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:21:24] [0;32mI (4078378) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:21:25] [0;32mI (4078448) ACTIVITY_LOG: Log stored. Total: 82[0m
+[2026-05-18 17:21:25] [0;32mI (4078488) LORA_RECEIVE: Received at: 18-05-2026 17:21[0m
+[2026-05-18 17:21:25] [0;33mW (4078528) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:21:25] [0;32mI (4078568) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:21:33] [0;32mI (4087418) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:21:34] [0;32mI (4087468) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:21:34] [0;32mI (4087508) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:21:34] [0;32mI (4087728) ACTIVITY_LOG: Log stored. Total: 83[0m
+[2026-05-18 17:21:34] [0;32mI (4087768) LORA_RECEIVE: Received at: 18-05-2026 17:21[0m
+[2026-05-18 17:21:34] [0;33mW (4087808) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:21:34] [0;32mI (4087848) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:21:37] [0;32mI (4090938) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:21:37] [0;32mI (4091008) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:21:37] [0;32mI (4091038) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:21:37] [0;32mI (4091098) ACTIVITY_LOG: Log stored. Total: 84[0m
+[2026-05-18 17:21:37] [0;32mI (4091128) LORA_RECEIVE: Received at: 18-05-2026 17:21[0m
+[2026-05-18 17:21:37] [0;33mW (4091158) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:21:37] [0;32mI (4091188) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:21:43] [0;32mI (4096708) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:21:43] [0;32mI (4096728) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:21:43] [0;32mI (4096768) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:21:43] [0;32mI (4096968) ACTIVITY_LOG: Log stored. Total: 85[0m
+[2026-05-18 17:21:43] [0;32mI (4096998) LORA_RECEIVE: Received at: 18-05-2026 17:21[0m
+[2026-05-18 17:21:43] [0;33mW (4097028) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:21:43] [0;32mI (4097058) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:21:48] [0;32mI (4101668) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:21:48] [0;32mI (4101708) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:21:48] [0;32mI (4101738) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:21:48] [0;32mI (4101798) ACTIVITY_LOG: Log stored. Total: 86[0m
+[2026-05-18 17:21:48] [0;32mI (4101828) LORA_RECEIVE: Received at: 18-05-2026 17:21[0m
+[2026-05-18 17:21:48] [0;33mW (4101858) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:21:48] [0;32mI (4101888) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:21:52] [0;32mI (4105828) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:21:52] [0;32mI (4105868) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:21:52] [0;32mI (4106058) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:21:52] [0;32mI (4106118) ACTIVITY_LOG: Log stored. Total: 87[0m
+[2026-05-18 17:21:52] [0;32mI (4106148) LORA_RECEIVE: Received at: 18-05-2026 17:21[0m
+[2026-05-18 17:21:52] [0;33mW (4106178) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:21:52] [0;32mI (4106208) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:22:00] [0;32mI (4113658) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:22:00] [0;32mI (4113698) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:22:00] [0;32mI (4113728) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:22:00] [0;32mI (4113808) ACTIVITY_LOG: Log stored. Total: 88[0m
+[2026-05-18 17:22:00] [0;32mI (4113848) LORA_RECEIVE: Received at: 18-05-2026 17:22[0m
+[2026-05-18 17:22:00] [0;33mW (4113888) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:22:00] [0;32mI (4113928) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:22:07] [0;32mI (4120658) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:22:07] [0;32mI (4120848) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:22:07] [0;32mI (4120878) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:22:07] [0;32mI (4120948) ACTIVITY_LOG: Log stored. Total: 89[0m
+[2026-05-18 17:22:07] [0;32mI (4120988) LORA_RECEIVE: Received at: 18-05-2026 17:22[0m
+[2026-05-18 17:22:07] [0;33mW (4121028) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:22:07] [0;32mI (4121068) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:22:14] [0;32mI (4127458) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:22:14] [0;32mI (4127508) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:22:14] [0;32mI (4127548) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:22:14] [0;32mI (4127628) ACTIVITY_LOG: Log stored. Total: 90[0m
+[2026-05-18 17:22:14] [0;32mI (4127668) LORA_RECEIVE: Received at: 18-05-2026 17:22[0m
+[2026-05-18 17:22:14] [0;33mW (4127728) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:22:14] [0;32mI (4127778) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:22:20] [0;32mI (4133638) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:22:20] [0;32mI (4133658) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:22:20] [0;32mI (4133688) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:22:20] [0;32mI (4133748) ACTIVITY_LOG: Log stored. Total: 91[0m
+[2026-05-18 17:22:20] [0;32mI (4133788) LORA_RECEIVE: Received at: 18-05-2026 17:22[0m
+[2026-05-18 17:22:20] [0;33mW (4133828) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:22:20] [0;32mI (4133858) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:22:27] [0;32mI (4140558) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:22:27] [0;32mI (4140598) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:22:27] [0;32mI (4140628) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:22:27] [0;32mI (4140688) ACTIVITY_LOG: Log stored. Total: 92[0m
+[2026-05-18 17:22:27] [0;32mI (4140718) LORA_RECEIVE: Received at: 18-05-2026 17:22[0m
+[2026-05-18 17:22:27] [0;33mW (4140748) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:22:27] [0;32mI (4140918) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:22:33] [0;32mI (4146588) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:22:33] [0;32mI (4146608) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:22:33] [0;32mI (4146658) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:22:33] [0;32mI (4146718) ACTIVITY_LOG: Log stored. Total: 93[0m
+[2026-05-18 17:22:33] [0;32mI (4146748) LORA_RECEIVE: Received at: 18-05-2026 17:22[0m
+[2026-05-18 17:22:33] [0;33mW (4146778) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:22:33] [0;32mI (4146808) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:22:40] [0;32mI (4154158) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:22:40] [0;32mI (4154198) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:22:40] [0;32mI (4154228) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:22:40] [0;32mI (4154308) ACTIVITY_LOG: Log stored. Total: 94[0m
+[2026-05-18 17:22:41] [0;32mI (4154338) LORA_RECEIVE: Received at: 18-05-2026 17:22[0m
+[2026-05-18 17:22:41] [0;33mW (4154528) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:22:41] [0;32mI (4154558) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:22:44] [0;32mI (4158188) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:22:44] [0;32mI (4158228) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:22:44] [0;32mI (4158278) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:22:44] [0;32mI (4158328) ACTIVITY_LOG: Log stored. Total: 95[0m
+[2026-05-18 17:22:44] [0;32mI (4158368) LORA_RECEIVE: Received at: 18-05-2026 17:22[0m
+[2026-05-18 17:22:44] [0;33mW (4158408) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:22:45] [0;32mI (4158448) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:22:47] [0;32mI (4161298) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:22:47] [0;32mI (4161338) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:22:47] [0;32mI (4161378) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:22:48] [0;32mI (4161458) ACTIVITY_LOG: Log stored. Total: 96[0m
+[2026-05-18 17:22:48] [0;32mI (4161648) LORA_RECEIVE: Received at: 18-05-2026 17:22[0m
+[2026-05-18 17:22:48] [0;33mW (4161678) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:22:48] [0;32mI (4161718) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:22:52] [0;32mI (4165948) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:22:52] [0;32mI (4165998) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:22:52] [0;32mI (4166038) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:22:52] [0;32mI (4166148) ACTIVITY_LOG: Log stored. Total: 97[0m
+[2026-05-18 17:22:52] [0;32mI (4166178) LORA_RECEIVE: Received at: 18-05-2026 17:22[0m
+[2026-05-18 17:22:52] [0;33mW (4166208) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:22:52] [0;32mI (4166238) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:22:59] [0;32mI (4173268) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:22:59] [0;32mI (4173308) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:22:59] [0;32mI (4173338) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:23:00] [0;32mI (4173558) ACTIVITY_LOG: Log stored. Total: 98[0m
+[2026-05-18 17:23:00] [0;32mI (4173588) LORA_RECEIVE: Received at: 18-05-2026 17:23[0m
+[2026-05-18 17:23:00] [0;33mW (4173618) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:23:00] [0;32mI (4173648) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:23:04] [0;32mI (4177538) LORA_RECEIVE: Received raw: 44:1D:64:42:DB:40 (len=17)[0m
+[2026-05-18 17:23:04] [0;32mI (4177568) LORA_RECEIVE: Parsed sender: 44:1D:64:42:DB:40[0m
+[2026-05-18 17:23:04] [0;32mI (4177608) LORA_RECEIVE: Owner Found: EEEE, Flat A105[0m
+[2026-05-18 17:23:04] [0;32mI (4177668) ACTIVITY_LOG: Log stored. Total: 99[0m
+[2026-05-18 17:23:04] [0;32mI (4177698) LORA_RECEIVE: Received at: 18-05-2026 17:23[0m
+[2026-05-18 17:23:04] [0;33mW (4177728) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:23:04] [0;32mI (4177758) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:23:07] [0;32mI (4180738) LORA_RECEIVE: Received raw: FC:B4:67:F4:83:E4 (len=17)[0m
+[2026-05-18 17:23:07] [0;32mI (4180778) LORA_RECEIVE: Parsed sender: FC:B4:67:F4:83:E4[0m
+[2026-05-18 17:23:07] [0;32mI (4180808) LORA_RECEIVE: Owner Found: DDDD, Flat A104[0m
+[2026-05-18 17:23:07] [0;32mI (4181028) ACTIVITY_LOG: Log stored. Total: 100[0m
+[2026-05-18 17:23:07] [0;32mI (4181058) LORA_RECEIVE: Received at: 18-05-2026 17:23[0m
+[2026-05-18 17:23:07] [0;33mW (4181088) LORA: Entering the receiver mode...[0m
+[2026-05-18 17:23:07] [0;32mI (4181118) LORA: LoRa set to continuous receive mode.[0m
+[2026-05-18 17:23:27] [0;32mI (4201318) USB_UPDATE: USB connected - installing device[0m
+[2026-05-18 17:23:28] [0;32mI (4201598) USB_UPDATE: CSV copied to LittleFS[0m
+[2026-05-18 17:23:28] [0;32mI (4201638) PASSWORD: Password file copied to LittleFS[0m
+[2026-05-18 17:23:28] [0;32mI (4201698) WIFI_MANAGER: wifi cred txt copied to LittleFS[0m
+[2026-05-18 17:23:28] [0;32mI (4201768) PASSWORD: Password loaded[0m
+[2026-05-18 17:23:28] [0;32mI (4201818) WIFI_MANAGER: WiFi credentials loaded[0m
+[2026-05-18 17:23:28] [0;32mI (4201998) WIFI_MANAGER: SSID: Paras 2.4[0m
+[2026-05-18 17:23:28] [0;32mI (4202028) WIFI_MANAGER: PASS: 9890090011[0m
+[2026-05-18 17:23:51] [0;32mI (4225088) ACTIVITY_COPY: Activity log copied to USB successfully[0m

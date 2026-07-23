@@ -1,0 +1,2 @@
+idf_component_register(SRCS "activity_log.c" "password.c" "usb_update.c" "lora_receive.c" "rtc.c" "button_handler.c" "screen_display.c" "main.c" "system_init.c" "lcd_i2c.c" "lora.c"
+                    INCLUDE_DIRS ".")

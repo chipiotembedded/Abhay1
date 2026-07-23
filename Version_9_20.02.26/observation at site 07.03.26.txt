@@ -1,0 +1,8 @@
+The main receiver was placed nat conference room in the clients office. 
+Receiver contained a program which would give u the route of packet.
+We tested communication on 2 buildings.
+One was an underconstruction building, where we tested using sender and sender+repeater.
+At some points/places repeater was nedded.
+
+Second was the bulding where people were living. Overhere we tested only in the corridor on each floor.
+We tested on each floor and the communication was successfull withou using repeater.

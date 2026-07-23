@@ -1,0 +1,322 @@
+
+SPIWPESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)        
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x178c
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xcb8
+load:0x403cb700,len:0x2db0
+entry 0x403c8914
+I (27) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader   
+I (27) boot: compile time Mar 23 2026 15:13:34
+I (27) boot: Multicore bootloader
+I (30) boot: chip revision: v0.2
+I (34) boot.esp32s3: Boot SPI Speed : 80MHz
+I (39) boot.esp32s3: SPI Mode       : DIO
+I (44) boot.esp32s3: SPI Flash Size : 8MB
+I (49) boot: Enabling RNG early entropy source...        
+I (54) boot: Partition Table:
+I (58) boot: ## Label            Usage          Type ST Offset   Length
+I (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (80) boot:  2 factory          factory app      00 00 00010000 00180000
+I (87) boot:  3 storage          Unknown data     01 83 00190000 00080000
+I (95) boot: End of partition table
+I (99) esp_image: segment 0: paddr=00010020 vaddr=3c0c0020 size=4003ch (262204) map
+I (154) esp_image: segment 1: paddr=00050064 vaddr=3fc9c600 size=04b20h ( 19232) load
+I (159) esp_image: segment 2: paddr=00054b8c vaddr=40374000 size=0b48ch ( 46220) load
+I (170) esp_image: segment 3: paddr=00060020 vaddr=42000020 size=be9b4h (780724) map
+I (311) esp_image: segment 4: paddr=0011e9dc vaddr=4037f48c size=0d068h ( 53352) load
+I (332) boot: Loaded app from partition at offset 0x10000I (333) boot: Disabling RNG early entropy source...      
+I (345) cpu_start: Multicore app
+I (354) cpu_start: Pro cpu start user code
+I (354) cpu_start: cpu freq: 160000000 Hz
+I (354) app_init: Application information:
+I (357) app_init: Project name:     Wifi_based_integration
+I (363) app_init: App version:      1
+I (367) app_init: Compile time:     Mar 23 2026 15:13:29
+I (373) app_init: ELF file SHA256:  2579cff83...
+I (379) app_init: ESP-IDF:          v5.3.1-dirty
+I (384) efuse_init: Min chip rev:     v0.0
+I (389) efuse_init: Max chip rev:     v0.99 
+I (394) efuse_init: Chip rev:         v0.2
+I (398) heap_init: Initializing. RAM available for dynamic allocation:
+I (406) heap_init: At 3FCA7D60 len 000419B0 (262 KiB): RAM
+I (412) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAMI (418) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (424) heap_init: At 600FE100 len 00001EE8 (7 KiB): RTCRAM
+I (431) spi_flash: detected chip: generic
+I (435) spi_flash: flash io: dio
+W (439) spi_flash: Detected size(16384k) larger than the 
+size in the binary image header(8192k). Using the size in the binary image header.
+W (452) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`    
+I (463) sleep: Configure to isolate all GPIO pins in sleep state
+I (470) sleep: Enable automatic switching of GPIO sleep configuration
+I (477) main_task: Started on CPU0
+I (487) main_task: Calling app_main()
+I (487) Main: Step 1: Mounting LittleFS
+I (487) USB_UPDATE: Mounting LittleFS...
+I (497) USB_UPDATE: LittleFS mounted successfully
+I (497) Main: Step 2: Log manager init
+Log file created/overwritten
+CUSTOM LOGGER TRIGGERED
+I (617) Main: Step 3: System initialize
+I (677) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (697) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (867) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (877) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (907) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (937) gpio: GPIO[18]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (997) ACTIVITY_LOG: Log file opened successfully
+LoRa REG_VERSION = 0x12
+W (1067) LORA: Entering the receiver mode...
+I (1067) gpio: GPIO[9]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0
+I (1107) LORA: LoRa set to continuous receive mode.
+I (1167) LORA_RECEIVE: LoRa Receiver Task Started
+I (1337) PASSWORD: Password loaded
+I (1367) WIFI_MANAGER: WiFi credentials loaded
+I (1397) WIFI_MANAGER: SSID: Paras 2.4
+I (1427) WIFI_MANAGER: PASS: 9890090011
+I (4497) Main: Step 4: Waiting for WiFi
+I (4557) pp: pp rom version: e7ae62f
+I (4597) net80211: net80211 rom version: e7ae62f
+I (4637) wifi:wifi driver task: 3fcb8ee4, prio:23, stack:6656, core=0
+I (4747) wifi:wifi firmware version: ccaebfa
+I (4877) wifi:wifi certification version: v7.0
+I (5137) wifi:config NVS flash: enabled
+I (5237) wifi:config nano formating: disabled
+I (5337) wifi:Init data frame dynamic rx buffer num: 32
+I (5457) wifi:Init static rx mgmt buffer num: 5
+I (5587) wifi:Init management short buffer num: 32
+I (5847) wifi:Init dynamic tx buffer num: 32
+I (5967) wifi:Init static tx FG buffer num: 2
+I (6087) wifi:Init static rx buffer size: 1600
+I (6207) wifi:Init static rx buffer num: 10
+I (6337) wifi:Init dynamic rx buffer num: 32
+I (6627) wifi_init: rx ba win: 6
+I (6667) wifi_init: accept mbox: 6
+I (6707) wifi_init: tcpip mbox: 32
+I (6747) wifi_init: udp mbox: 6
+I (6787) wifi_init: tcp mbox: 6
+I (6827) wifi_init: tcp tx win: 5760
+I (6877) wifi_init: tcp rx win: 5760
+I (6927) wifi_init: tcp mss: 1440
+I (6987) wifi_init: WiFi IRAM OP enabled
+I (7027) wifi_init: WiFi RX IRAM OP enabled
+I (7097) WIFI_MANAGER: WiFi credentials loaded
+I (7147) WIFI_MANAGER: SSID: Paras 2.4
+I (7207) WIFI_MANAGER: PASS: 9890090011
+I (8287) WIFI_MANAGER: Using stored WiFi credentials
+I (8467) wifi:Set ps type: 0, coexist: 0
+
+I (8557) phy_init: phy_version 680,a6008b2,Jun  4 2024,16:41:10
+I (8617) wifi:mode : sta (98:a3:16:c4:8b:d8)
+I (8717) wifi:enable tsf
+I (8807) WIFI_MANAGER: WiFi initialization finished
+I (8807) WIFI_MANAGER: WiFi Started. Connecting...       
+I (8847) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0
+I (9077) wifi:state: init -> auth (0xb0)
+I (9197) wifi:state: auth -> assoc (0x0)
+I (9287) wifi:state: assoc -> run (0x10)
+I (9397) wifi:connected with Paras 2.4, aid = 1, channel 
+1, BW20, bssid = 40:ed:00:55:66:41
+I (9507) wifi:security: WPA2-PSK, phy: bgn, rssi: -37
+I (9727) wifi:pm start, type: 0
+
+I (9817) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (9907) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (9997) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (10177) wifi:<ba-add>idx:0 (ifx:0, 40:ed:00:55:66:41), 
+tid:0, ssn:3, winSize:64
+I (11107) esp_netif_handlers: sta ip: 192.168.1.186, mask: 255.255.255.0, gw: 192.168.1.102
+I (11147) WIFI_MANAGER: Got IP: 192.168.1.186
+I (13177) WIFI_MANAGER: Connected to WiFi successfully
+SP�ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)        
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x178c
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xcb8
+load:0x403cb700,len:0x2db0
+entry 0x403c8914
+I (27) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader   
+I (27) boot: compile time Mar 23 2026 15:13:34
+I (27) boot: Multicore bootloader
+I (30) boot: chip revision: v0.2
+I (34) boot.esp32s3: Boot SPI Speed : 80MHz
+I (39) boot.esp32s3: SPI Mode       : DIO
+I (44) boot.esp32s3: SPI Flash Size : 8MB
+I (49) boot: Enabling RNG early entropy source...        
+I (54) boot: Partition Table:
+I (58) boot: ## Label            Usage          Type ST Offset   Length
+I (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (80) boot:  2 factory          factory app      00 00 00010000 00180000
+I (87) boot:  3 storage          Unknown data     01 83 00190000 00080000
+I (95) boot: End of partition table
+I (99) esp_image: segment 0: paddr=00010020 vaddr=3c0c0020 size=4003ch (262204) map
+I (154) esp_image: segment 1: paddr=00050064 vaddr=3fc9c600 size=04b20h ( 19232) load
+I (159) esp_image: segment 2: paddr=00054b8c vaddr=40374000 size=0b48ch ( 46220) load
+I (170) esp_image: segment 3: paddr=00060020 vaddr=42000020 size=be9b4h (780724) map
+I (311) esp_image: segment 4: paddr=0011e9dc vaddr=4037f48c size=0d068h ( 53352) load
+I (332) boot: Loaded app from partition at offset 0x10000I (333) boot: Disabling RNG early entropy source...
+I (345) cpu_start: Multicore app
+I (354) cpu_start: Pro cpu start user code
+I (354) cpu_start: cpu freq: 160000000 Hz
+I (354) app_init: Application information:
+I (357) app_init: Project name:     Wifi_based_integration
+I (363) app_init: App version:      1
+I (367) app_init: Compile time:     Mar 23 2026 15:13:29 
+I (373) app_init: ELF file SHA256:  2579cff83...
+I (379) app_init: ESP-IDF:          v5.3.1-dirty
+I (384) efuse_init: Min chip rev:     v0.0
+I (389) efuse_init: Max chip rev:     v0.99 
+I (394) efuse_init: Chip rev:         v0.2
+I (398) heap_init: Initializing. RAM available for dynamic allocation:
+I (406) heap_init: At 3FCA7D60 len 000419B0 (262 KiB): RAM
+I (412) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAMI (418) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (424) heap_init: At 600FE100 len 00001EE8 (7 KiB): RTCRAM
+I (431) spi_flash: detected chip: generic
+I (435) spi_flash: flash io: dio
+W (439) spi_flash: Detected size(16384k) larger than the 
+size in the binary image header(8192k). Using the size in the binary image header.
+W (452) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`    
+I (463) sleep: Configure to isolate all GPIO pins in sleep state
+I (470) sleep: Enable automatic switching of GPIO sleep configuration
+I (477) main_task: Started on CPU0
+I (487) main_task: Calling app_main()
+I (487) Main: Step 1: Mounting LittleFS
+I (487) USB_UPDATE: Mounting LittleFS...
+I (497) USB_UPDATE: LittleFS mounted successfully        
+I (497) Main: Step 2: Log manager init
+Log file created/overwritten
+CUSTOM LOGGER TRIGGERED
+I (617) Main: Step 3: System initialize
+I (677) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (697) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (707) gpio: GPIO[6]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (727) gpio: GPIO[7]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (767) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (797) gpio: GPIO[18]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+I (947) ACTIVITY_LOG: Log file opened successfully
+LoRa REG_VERSION = 0x12
+W (1007) LORA: Entering the receiver mode...
+I (1007) gpio: GPIO[9]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0
+I (1077) LORA: LoRa set to continuous receive mode.
+I (1107) LORA_RECEIVE: LoRa Receiver Task Started
+I (1147) PASSWORD: Password loaded
+I (1187) WIFI_MANAGER: WiFi credentials loaded
+I (1227) WIFI_MANAGER: SSID: Paras 2.4
+I (1257) WIFI_MANAGER: PASS: 9890090011
+I (4327) Main: Step 4: Waiting for WiFi
+I (4387) pp: pp rom version: e7ae62f
+I (4427) net80211: net80211 rom version: e7ae62f
+I (4467) wifi:wifi driver task: 3fcb8ef0, prio:23, stack:6656, core=0
+I (4707) wifi:wifi firmware version: ccaebfa
+I (4817) wifi:wifi certification version: v7.0
+I (4927) wifi:config NVS flash: enabled
+I (5027) wifi:config nano formating: disabled
+I (5147) wifi:Init data frame dynamic rx buffer num: 32
+I (5407) wifi:Init static rx mgmt buffer num: 5
+I (5527) wifi:Init management short buffer num: 32
+I (5657) wifi:Init dynamic tx buffer num: 32
+I (5777) wifi:Init static tx FG buffer num: 2
+I (5897) wifi:Init static rx buffer size: 1600
+I (6177) wifi:Init static rx buffer num: 10
+I (6297) wifi:Init dynamic rx buffer num: 32
+I (6417) wifi_init: rx ba win: 6
+I (6467) wifi_init: accept mbox: 6
+I (6517) wifi_init: tcpip mbox: 32
+I (6567) wifi_init: udp mbox: 6
+I (6607) wifi_init: tcp mbox: 6
+I (6657) wifi_init: tcp tx win: 5760
+I (6707) wifi_init: tcp rx win: 5760
+I (6757) wifi_init: tcp mss: 1440
+I (6957) wifi_init: WiFi IRAM OP enabled
+I (6997) wifi_init: WiFi RX IRAM OP enabled
+I (7047) WIFI_MANAGER: WiFi credentials loaded
+I (7097) WIFI_MANAGER: SSID: Paras 2.4
+I (7157) WIFI_MANAGER: PASS: 9890090011
+I (8197) WIFI_MANAGER: Using stored WiFi credentials
+I (8267) wifi:Set ps type: 0, coexist: 0
+
+I (8357) phy_init: phy_version 680,a6008b2,Jun  4 2024,16:41:10
+I (8417) wifi:mode : sta (98:a3:16:c4:8b:d8)
+I (8517) wifi:enable tsf
+I (8767) WIFI_MANAGER: WiFi initialization finished
+I (8767) WIFI_MANAGER: WiFi Started. Connecting...       
+I (8817) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0
+I (8917) wifi:state: init -> auth (0xb0)
+I (9017) wifi:state: auth -> assoc (0x0)
+I (9107) wifi:state: assoc -> run (0x10)
+I (9387) wifi:connected with Paras 2.4, aid = 1, channel 
+1, BW20, bssid = 40:ed:00:55:66:41
+I (9477) wifi:security: WPA2-PSK, phy: bgn, rssi: -36
+I (9567) wifi:pm start, type: 0
+
+I (9657) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (9757) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (10027) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (10157) wifi:<ba-add>idx:0 (ifx:0, 40:ed:00:55:66:41), 
+tid:0, ssn:3, winSize:64
+I (11127) esp_netif_handlers: sta ip: 192.168.1.186, mask: 255.255.255.0, gw: 192.168.1.102
+I (11167) WIFI_MANAGER: Got IP: 192.168.1.186
+I (13217) WIFI_MANAGER: Connected to WiFi successfully
+I (15287) RTC_DRIVER: RTC Init Started
+I (16327) RTC_DRIVER: Initializing SNTP
+I (16377) RTC_DRIVER: Waiting for time sync... (1/15)
+I (16797) wifi:<ba-add>idx:1 (ifx:0, 40:ed:00:55:66:41), 
+tid:4, ssn:1, winSize:64
+I (18417) RTC_DRIVER: Waiting for time sync... (2/15)
+I (20457) RTC_DRIVER: Waiting for time sync... (3/15)
+I (22497) RTC_DRIVER: Waiting for time sync... (4/15)
+I (24537) RTC_DRIVER: Waiting for time sync... (5/15)
+I (26577) RTC_DRIVER: Waiting for time sync... (6/15)
+I (28627) RTC_DRIVER: Waiting for time sync... (7/15)
+I (30667) RTC_DRIVER: Waiting for time sync... (8/15)
+I (32717) RTC_DRIVER: Waiting for time sync... (9/15)
+I (34757) RTC_DRIVER: Waiting for time sync... (10/15)
+I (36807) RTC_DRIVER: Waiting for time sync... (11/15)
+I (38857) RTC_DRIVER: Waiting for time sync... (12/15)
+I (40907) RTC_DRIVER: Waiting for time sync... (13/15)
+I (42957) RTC_DRIVER: Waiting for time sync... (14/15)
+W (45007) RTC_DRIVER: Time sync failed
+Current time: 30-03-2026 14:49I (50117) SCREEN_DISPLAY: Display task started
+I (50117) USB_UPDATE: USB update task started
+I (50117) Main: USB update task created successfully     
+I (50307) USB_UPDATE: Waiting for USB device
+I (50417) Main: lcd_bl_timer task created successfully
+I (50487) Main: Starting application
+I (54627) main_task: Returned from app_main()
+E (110277) USBH: Dev 1 EP 0 STALL
+E (110277) HUB: Bad transfer status 4: CHECK_SHORT_LANGID_TABLE
+E (110307) HUB: Stage failed: CHECK_SHORT_LANGID_TABLE
+I (110347) USB_UPDATE: USB connected - installing device
+E (111107) USB_MSC_SCSI: Sense error codes: Sense Key 0x06, ASC: 0x28, ASCQ: 0x00
+E (111157) USB_MSC_SCSI: Sense error description: not found, refer to USB Mass Storage Class – UFI Command Specification (Table 51)
+I (112297) USB_UPDATE: CSV copied to LittleFS
+I (112497) PASSWORD: Password file copied to LittleFS
+I (112537) WIFI_MANAGER: wifi cred txt copied to LittleFSI (112577) PASSWORD: Password loaded
+I (112627) WIFI_MANAGER: WiFi credentials loaded
+I (112657) WIFI_MANAGER: SSID: Paras 2.4
+I (112687) WIFI_MANAGER: PASS: 9890090011
+I (131417) ACTIVITY_COPY: Activity log copied to USB successfully
+I (131467) LOG_MANAGER: LittleFS log file size: 9610 bytes
+I (131547) LOG_MANAGER: log.txt copied to USB successfully
+I (131587) GITHUB_UPLOADER: Starting Base64 test...
+I (131647) TIME: Year now = 2026
+I (131687) TIME: Hour now = 14
+I (131717) GITHUB_UPLOADER: Uploading as: 2026-03-30_14-50-42.txt
+I (131757) GITHUB_UPLOADER: File size: 10108 bytes
+I (131957) GITHUB_UPLOADER: Base64 size: 13480 bytes
+I (131987) GITHUB_UPLOADER: Base64 preview: WzE5NzAtMDEtMDEgMDA6MDA6MDBdIBtbMDszMm1JICg2MTcpIE1haW46IFN0ZXAgMzogU3lzdGVtIGluaXRpYWxpemUbWzBtClsx
+I (132037) GITHUB_UPLOADER: JSON size: 13523
+I (132067) GITHUB_UPLOADER: JSON preview: {"message":"ESP32 log upload","content":"WzE5NzAtMDEtMDEgMDA6MDA6MDBdIBtbMDszMm1JICg2MTcpIE1haW46IFN0ZXAgMzogU3lzdGVtIGluaXRpYWxpemUbWzBtClsxOTcwLTAxL
+I (132127) GITHUB_UPLOADER: Uploading to GitHub...       
+I (132167) GITHUB_UPLOADER: URL: https://api.github.com/repos/chipiotembedded/Abhay/contents/2026-03-30_14-50-42.txt
+I (133237) esp-x509-crt-bundle: Certificate validated    
+I (134907) GITHUB_UPLOADER: GitHub Status = 201
+

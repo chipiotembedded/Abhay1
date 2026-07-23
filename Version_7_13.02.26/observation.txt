@@ -1,0 +1,108 @@
+Kept main receiver and repeater X in office, kept repeater Y parallel to nearby t-junction. 
+Sender was kept in such a way that it did send directly to X or main receiver.
+
+Observed below on Repeater X-
+
+W (1121866) LORA: Entering the receiver mode...
+I (1121866) LORA: LoRa set to continuous receive mode.
+E (1179666) LORA: CRC error on received packet
+I (1184566) LoRa_RX: Received: FC:B4:67:F4:83:E4 (len=17)
+I (1184566) LoRa_RX: Forwarding: FC:B4:67:F4:83:E4|X
+-------------------------------------------------------------------
+I (1184566) LORA: Switching to TX mode...
+Entering lora_send_packet.....!!!!
+FC:B4:67:F4:83:E4|X
+Packet transmission complete
+W (1185246) LORA: Entering the receiver mode...
+I (1185246) LORA: LoRa set to continuous receive mode.
+E (1202246) LORA: CRC error on received packet
+I (1379546) LoRa_RX: Received: 44:1D:64:42:DB:40|Y (len=19)
+I (1379546) LoRa_RX: Forwarding: 44:1D:64:42:DB:40|Y|X
+-------------------------------------------------------------------
+I (1379546) LORA: Switching to TX mode...
+Entering lora_send_packet.....!!!!
+44:1D:64:42:DB:40|Y|X
+Packet transmission complete
+W (1380226) LORA: Entering the receiver mode...
+I (1380226) LORA: LoRa set to continuous receive mode.
+E (1389926) LORA: CRC error on received packet
+I (1396726) LoRa_RX: Received: 44:1D:64:42:DB:40|Y (len=19)
+I (1396726) LoRa_RX: Forwarding: 44:1D:64:42:DB:40|Y|X
+-------------------------------------------------------------------
+I (1396726) LORA: Switching to TX mode...
+Entering lora_send_packet.....!!!!
+44:1D:64:42:DB:40|Y|X
+Packet transmission complete
+W (1397406) LORA: Entering the receiver mode...
+I (1397406) LORA: LoRa set to continuous receive mode.
+I (1406606) LoRa_RX: Received: 44:1D:64:42:DB:40|Y (len=19)
+I (1406606) LoRa_RX: Forwarding: 44:1D:64:42:DB:40|Y|X
+-------------------------------------------------------------------
+I (1406606) LORA: Switching to TX mode...
+Entering lora_send_packet.....!!!!
+44:1D:64:42:DB:40|Y|X
+Packet transmission complete
+W (1407286) LORA: Entering the receiver mode...
+I (1407286) LORA: LoRa set to continuous receive mode.
+I (1420086) LoRa_RX: Received: 44:1D:64:42:DB:40|Y (len=19)
+I (1420086) LoRa_RX: Forwarding: 44:1D:64:42:DB:40|Y|X
+-------------------------------------------------------------------
+I (1420086) LORA: Switching to TX mode...
+Entering lora_send_packet.....!!!!
+44:1D:64:42:DB:40|Y|X
+Packet transmission complete
+
+
+
+Observed below on Main receiver-
+W (5282512) LORA: Entering the receiver mode...
+I (5282522) LORA: LoRa set to continuous receive mode.
+I (5295422) LORA_RECEIVE: Received: 44:1D:64:42:DB:40|Y (len=19)
+I (5295442) LORA_RECEIVE: Owner Found: EEEE, Flat A105
+I (5295462) ACTIVITY_LOG: Stored log 30, total: 31
+I (5295462) LORA_RECEIVE: Received at: 11-09-25 17:12
+W (5295462) LORA: Entering the receiver mode...
+I (5295472) LORA: LoRa set to continuous receive mode.
+I (5296172) LORA_RECEIVE: Received: 44:1D:64:42:DB:40|Y|X (len=21)
+W (5296172) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40
+W (5296172) LORA: Entering the receiver mode...
+I (5296172) LORA: LoRa set to continuous receive mode.
+I (5305782) LORA_RECEIVE: Received: 44:1D:64:42:DB:40|Y (len=19)
+I (5305802) LORA_RECEIVE: Owner Found: EEEE, Flat A105
+I (5305822) ACTIVITY_LOG: Stored log 31, total: 32
+I (5305822) LORA_RECEIVE: Received at: 11-09-25 17:13
+W (5305822) LORA: Entering the receiver mode...
+I (5305832) LORA: LoRa set to continuous receive mode.
+I (5312632) LORA_RECEIVE: Received: 44:1D:64:42:DB:40|Y (len=19)
+I (5312652) LORA_RECEIVE: Owner Found: EEEE, Flat A105
+I (5312742) ACTIVITY_LOG: Stored log 32, total: 33
+I (5312742) LORA_RECEIVE: Received at: 11-09-25 17:13
+W (5312742) LORA: Entering the receiver mode...
+I (5312752) LORA: LoRa set to continuous receive mode.
+I (5322452) LORA_RECEIVE: Received: 44:1D:64:42:DB:40|Y (len=19)
+I (5322472) LORA_RECEIVE: Owner Found: EEEE, Flat A105
+I (5322492) ACTIVITY_LOG: Stored log 33, total: 34
+I (5322492) LORA_RECEIVE: Received at: 11-09-25 17:13
+W (5322492) LORA: Entering the receiver mode...
+I (5322502) LORA: LoRa set to continuous receive mode.
+I (5323302) LORA_RECEIVE: Received: 44:1D:64:42:DB:40|Y|X (len=21)
+W (5323302) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40
+W (5323302) LORA: Entering the receiver mode...
+I (5323302) LORA: LoRa set to continuous receive mode.
+I (5335912) LORA_RECEIVE: Received: 44:1D:64:42:DB:40|Y (len=19)
+I (5335932) LORA_RECEIVE: Owner Found: EEEE, Flat A105
+I (5335952) ACTIVITY_LOG: Stored log 34, total: 35
+I (5335952) LORA_RECEIVE: Received at: 11-09-25 17:13
+W (5335952) LORA: Entering the receiver mode...
+I (5335962) LORA: LoRa set to continuous receive mode.
+I (5336762) LORA_RECEIVE: Received: 44:1D:64:42:DB:40|Y|X (len=21)
+W (5336762) LORA_RECEIVE: Duplicate suppressed: 44:1D:64:42:DB:40
+W (5336762) LORA: Entering the receiver mode...
+
+
+
+PROBLEMS-
+DIDNT WORK WHEN Y WAS AT POINT PARALLEL TO NEARBY T- JUNCTION, X WAS AT SALIL/ SILVAN HEIGHTS AND SENDER WAS NEAR SEASONS T JUNCTION.
+
+POSITIONING AND RANGE IS THE PROBLEM. 
+WHERE SENDER WORKED WITH ONE REPEATER, I PLACED ANOTHER REPEATER THERE AND TOOK SENDER AWAY FROM THAT REPEATER
