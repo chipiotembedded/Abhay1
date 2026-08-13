@@ -6,7 +6,7 @@ bool password_verified = false;
 
 
 //const TickType_t button_debounce_delay = pdMS_TO_TICKS(0);
-#define DEBOUNCE_DELAY_MS   50
+#define DEBOUNCE_DELAY_MS   30
 #define POST_PRESS_DELAY_MS 100
 
 void reset_password_input(void) {

@@ -69,25 +69,15 @@ void display_log_entry(int index) {
 
     if (read_log_entry(actual_index, &entry)) {
 
-        // i2c_lcd_set_cursor(0, 0);
-        // i2c_lcd_send_string(entry.OwnerName);
         lcd_display_text(0, 0, entry.OwnerName, true);
 
-        // i2c_lcd_set_cursor(1, 0);
-        // i2c_lcd_send_string(entry.FlatNumber);
         lcd_display_text(1, 0, entry.FlatNumber, false);
 
-        // i2c_lcd_set_cursor(2, 0);
-        // i2c_lcd_send_string(entry.timestamp);
         lcd_display_text(2, 0, entry.timestamp, false);
 
         char index_str[16];
         snprintf(index_str, sizeof(index_str), "%d/%d", current_log_index  + 1, total_logs);
-        // i2c_lcd_set_cursor(3, 4);
-        // i2c_lcd_send_string("  ");  // 16 spaces
         lcd_display_text(3, 4, "  ", false);
-        // i2c_lcd_set_cursor(3, 0);
-        // i2c_lcd_send_string(index_str);
         lcd_display_text(3, 0, index_str, false);
     }
 }
